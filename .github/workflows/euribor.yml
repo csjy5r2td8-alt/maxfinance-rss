@@ -1,0 +1,56 @@
+name: Resumo semanal Euribor
+
+on:
+  schedule:
+    # Segunda-feira as 07:00 UTC (08:00 em Lisboa no verao, 07:00 no inverno).
+    - cron: "0 7 * * 1"
+  workflow_dispatch:   # permite correr a mao a partir do separador Actions
+
+permissions:
+  contents: write
+
+jobs:
+  euribor:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obter o codigo
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Ler taxas e preparar email
+        run: python euribor_email.py
+
+      - name: Preparar o assunto
+        run: echo "ASSUNTO=$(cat email_subject.txt)" >> $GITHUB_ENV
+
+      - name: Enviar email
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          from: Resumo Euribor <${{ secrets.MAIL_USERNAME }}>
+          to: ${{ secrets.MAIL_TO }}
+          subject: ${{ env.ASSUNTO }}
+          html_body: file://email_body.html
+
+      - name: Guardar valores para a proxima semana
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add euribor_anterior.json
+          if git diff --staged --quiet; then
+            echo "Sem alteracoes."
+          else
+            git commit -m "Atualizar taxas Euribor ($(date -u +%Y-%m-%d))"
+            git push
+          fi
