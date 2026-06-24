@@ -2,7 +2,7 @@ name: Gerar RSS do blog Maxfinance
 
 on:
   schedule:
-    - cron: "0 6 * * *"
+    - cron: "0 18 * * *"
   workflow_dispatch:
 
 permissions:
