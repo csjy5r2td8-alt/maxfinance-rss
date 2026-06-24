@@ -1,0 +1,39 @@
+name: Gerar RSS do blog Maxfinance
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  gerar-rss:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obter o codigo
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Gerar o feed
+        run: python generate_rss.py
+
+      - name: Fazer commit do rss.xml
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add rss.xml
+          if git diff --staged --quiet; then
+            echo "Sem alteracoes no feed."
+          else
+            git commit -m "Atualizar RSS ($(date -u +%Y-%m-%d))"
+            git push
+          fi
