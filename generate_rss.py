@@ -44,36 +44,55 @@ def parse_articles(html: str):
     articles = []
     seen = set()
 
-    # Cada artigo da listagem tem um titulo em <h2>/<h3> com link para a pagina.
+    def is_article_link(a):
+        if not a or not a.get("href"):
+            return False
+        return bool(ARTICLE_RE.match(a["href"].strip().replace(SITE, "")))
+
+    # Cada artigo da listagem tem um titulo num <h2>/<h3>. O link para o artigo
+    # NAO esta dentro do titulo: esta na imagem (antes) ou no "Ler mais" (depois).
     for heading in soup.find_all(["h2", "h3"]):
-        link = heading.find("a", href=True)
-        # Se o titulo nao tem link dentro, procura um link de artigo proximo.
-        if not link:
-            continue
-        href = link["href"].strip()
-        path = href.replace(SITE, "")
-        if not ARTICLE_RE.match(path):
-            continue
-
-        full_url = urljoin(SITE, href)
-        if full_url in seen:
-            continue
-        seen.add(full_url)
-
-        title = link.get_text(strip=True)
+        title = heading.get_text(" ", strip=True)
         if not title:
             continue
 
-        # A partir do titulo, varre os elementos seguintes a procura de data e resumo.
+        # 1) link dentro do proprio titulo (caso exista)
+        url = None
+        inner = heading.find("a", href=True)
+        if is_article_link(inner):
+            url = urljoin(SITE, inner["href"].strip())
+
+        # 2) senao, primeiro link de artigo a seguir ao titulo,
+        #    mas sem passar para o proximo titulo.
+        if url is None:
+            for node in heading.find_all_next():
+                if node.name in ("h2", "h3") and node is not heading:
+                    break
+                if node.name == "a" and is_article_link(node):
+                    url = urljoin(SITE, node["href"].strip())
+                    break
+
+        # 3) senao, link de artigo imediatamente antes (imagem do artigo)
+        if url is None:
+            for node in heading.find_all_previous():
+                if node.name in ("h2", "h3") and node is not heading:
+                    break
+                if node.name == "a" and is_article_link(node):
+                    url = urljoin(SITE, node["href"].strip())
+                    break
+
+        if not url or url in seen:
+            continue
+        seen.add(url)
+
+        # Data e resumo: varre os elementos a seguir ao titulo.
         date_val = None
         summary = ""
         for node in heading.find_all_next():
-            # parar ao chegar ao proximo artigo (outro titulo com link de blog)
             if node.name in ("h2", "h3") and node is not heading:
-                nlink = node.find("a", href=True)
-                if nlink and ARTICLE_RE.match(nlink["href"].replace(SITE, "")):
+                nt = node.get_text(strip=True)
+                if nt:  # chegamos ao proximo artigo
                     break
-            # ignorar o que esta dentro do proprio titulo
             if node in heading.descendants:
                 continue
             text = node.get_text(" ", strip=True) if hasattr(node, "get_text") else ""
@@ -81,11 +100,10 @@ def parse_articles(html: str):
                 continue
             if date_val is None:
                 m = DATE_RE.search(text)
-                if m and len(text) < 25:  # bloco que e so a data
+                if m and len(text) < 25:
                     d, mth, y = map(int, m.groups())
                     date_val = dt.datetime(y, mth, d, 9, 0, tzinfo=LISBON)
                     continue
-            # primeiro paragrafo de texto com corpo vira resumo (ignora "Ler mais")
             if (not summary and len(text) > 40
                     and node.name not in ("h1", "h2", "h3", "h4")
                     and "ler mais" not in text.lower()):
@@ -96,7 +114,7 @@ def parse_articles(html: str):
         articles.append(
             {
                 "title": title,
-                "url": full_url,
+                "url": url,
                 "date": date_val,
                 "summary": summary or title,
             }
