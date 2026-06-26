@@ -7,19 +7,12 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>MaxfinanceRSS</generator>
     <language>pt-pt</language>
-    <lastBuildDate>Fri, 26 Jun 2026 00:01:53 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 22:56:04 +0100</lastBuildDate>
     <item>
       <title>The MAXFINANCE Mobile</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/campanha-da-maxfinance-conquista-bronze-nos-premios-lusofono</link>
-      <description>Maxfinance Serviços Check-up Financeiro Crédito Habitação Simuladores Crédito Habitação Transferência de Crédito Habitação Variação da Euribor Mais-valias de imóveis Prestação de crédito após amortização IMI Novo IMT e Imposto de Selo Novo Check-up Financeiro Salário Líquido Novo Blog Franchising</description>
-      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/campanha-da-maxfinance-conquista-bronze-nos-premios-lusofono</guid>
-    </item>
-    <item>
-      <title>Crédito pessoal: os erros mais comuns que podem sair caros</title>
       <link>https://www.maxfinance.pt/pt-pt/blog/credito-pessoal-os-erros-mais-comuns-que-podem-sair-caros</link>
-      <description>02.06.2026 O crédito pessoal continua a ser uma das soluções mais procuradas pelos portugueses para fazer face a despesas inesperadas, realizar projetos pessoais ou consolidar encargos financeiros.</description>
+      <description>Maxfinance Serviços Check-up Financeiro Crédito Habitação Simuladores Crédito Habitação Transferência de Crédito Habitação Variação da Euribor Mais-valias de imóveis Prestação de crédito após amortização IMI Novo IMT e Imposto de Selo Novo Check-up Financeiro Salário Líquido Novo Blog Franchising</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/credito-pessoal-os-erros-mais-comuns-que-podem-sair-caros</guid>
-      <pubDate>Tue, 02 Jun 2026 09:00:00 +0100</pubDate>
     </item>
     <item>
       <title>A defesa do cliente no Crédito Habitação</title>
@@ -57,18 +50,25 @@
       <pubDate>Thu, 07 May 2026 09:00:00 +0100</pubDate>
     </item>
     <item>
-      <title>Intermediação de crédito: por que cada vez mais portugueses recorrem a este serviço?</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/intermediacao-de-credito</link>
-      <description>05.05.2026 Nos últimos anos, a forma como os portugueses procuram financiamento, sobretudo crédito habitação, tem vindo a mudar.</description>
-      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/intermediacao-de-credito</guid>
-      <pubDate>Tue, 05 May 2026 09:00:00 +0100</pubDate>
-    </item>
-    <item>
       <title>Mau tempo e crédito à habitação: o que fazer se tiver dificuldades em pagar?</title>
       <link>https://www.maxfinance.pt/pt-pt/blog/mau-tempo-e-credito-habitacao</link>
       <description>30.04.2026 O recente episódio de mau tempo em Portugal trouxe consequências que vão muito além dos danos visíveis.</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/mau-tempo-e-credito-habitacao</guid>
       <pubDate>Thu, 30 Apr 2026 09:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Cartão de crédito: como usar sem cair em dívidas</title>
+      <link>https://www.maxfinance.pt/pt-pt/blog/cartao-de-credito-como-usar-sem-cair-em-dividas</link>
+      <description>28.04.2026 O cartão de crédito pode ser um aliado útil no dia a dia, desde que seja usado com consciência. Quando bem utilizado, ajuda a organizar despesas, oferece flexibilidade e até algumas vantagens.</description>
+      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/cartao-de-credito-como-usar-sem-cair-em-dividas</guid>
+      <pubDate>Tue, 28 Apr 2026 09:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Crédito Habitação: Está a pagar mais do que devia?</title>
+      <link>https://www.maxfinance.pt/pt-pt/blog/credito-habitacao-esta-pagar-mais-do-que-devia</link>
+      <description>23.04.2026 Ter casa própria é uma das maiores conquistas de uma família.</description>
+      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/credito-habitacao-esta-pagar-mais-do-que-devia</guid>
+      <pubDate>Thu, 23 Apr 2026 09:00:00 +0100</pubDate>
     </item>
   </channel>
 </rss>
