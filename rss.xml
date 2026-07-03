@@ -7,12 +7,26 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>MaxfinanceRSS</generator>
     <language>pt-pt</language>
-    <lastBuildDate>Thu, 02 Jul 2026 22:49:29 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 22:43:13 +0100</lastBuildDate>
     <item>
       <title>The MAXFINANCE Mobile</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/dificuldade-em-pagar-o-condominio-e-prestacao-da-casa</link>
+      <link>https://www.maxfinance.pt/pt-pt/blog/pacote-fiscal-habitacao-2026-imt-irs-iva-e-arrendamento</link>
       <description>Maxfinance Serviços Check-up Financeiro Crédito Habitação Simuladores Crédito Habitação Transferência de Crédito Habitação Variação da Euribor Mais-valias de imóveis Prestação de crédito após amortização IMI Novo IMT e Imposto de Selo Novo Check-up Financeiro Salário Líquido Novo Blog Franchising</description>
+      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/pacote-fiscal-habitacao-2026-imt-irs-iva-e-arrendamento</guid>
+    </item>
+    <item>
+      <title>Crédito à habitação acelera e mantém trajetória de crescimento em 2026</title>
+      <link>https://www.maxfinance.pt/pt-pt/blog/credito-habitacao-2026-crescimento-de-108-ao-ano</link>
+      <description>03.07.2026 Crédito à habitação acelera e mantém trajetória de crescimento em 2026</description>
+      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/credito-habitacao-2026-crescimento-de-108-ao-ano</guid>
+      <pubDate>Fri, 03 Jul 2026 09:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Dificuldade em pagar o condomínio e a prestação da casa? Sinais de alerta de que precisa de um intermediário</title>
+      <link>https://www.maxfinance.pt/pt-pt/blog/dificuldade-em-pagar-o-condominio-e-prestacao-da-casa</link>
+      <description>01.07.2026 A prestação da casa, o condomínio, os seguros e o aumento do custo de vida podem tornar o orçamento familiar mais apertado.</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/dificuldade-em-pagar-o-condominio-e-prestacao-da-casa</guid>
+      <pubDate>Wed, 01 Jul 2026 09:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Isenção de IMT e Imposto do Selo: Quanto vai poupar na sua primeira habitação?</title>
@@ -55,20 +69,6 @@
       <description>05.06.2026 Com a chegada do verão, muitas famílias aproveitam os meses antes das férias para tentar concretizar um dos maiores objetivos de vida: comprar casa.</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/comprar-casa-antes-das-ferias</guid>
       <pubDate>Fri, 05 Jun 2026 09:00:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Crédito pessoal: os erros mais comuns que podem sair caros</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/credito-pessoal-os-erros-mais-comuns-que-podem-sair-caros</link>
-      <description>02.06.2026 O crédito pessoal continua a ser uma das soluções mais procuradas pelos portugueses para fazer face a despesas inesperadas, realizar projetos pessoais ou consolidar encargos financeiros.</description>
-      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/credito-pessoal-os-erros-mais-comuns-que-podem-sair-caros</guid>
-      <pubDate>Tue, 02 Jun 2026 09:00:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>A defesa do cliente no Crédito Habitação</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/defesa-do-cliente-no-credito-habitacao</link>
-      <description>25.05.2026 Ao longo dos últimos anos, a intermediação de crédito tem vindo a facilitar, de forma crescente, o acesso à informação e às melhores condições disponíveis no mercado, reforçando o nível de proteção</description>
-      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/defesa-do-cliente-no-credito-habitacao</guid>
-      <pubDate>Mon, 25 May 2026 09:00:00 +0100</pubDate>
     </item>
   </channel>
 </rss>
