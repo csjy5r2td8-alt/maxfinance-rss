@@ -7,12 +7,19 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>MaxfinanceRSS</generator>
     <language>pt-pt</language>
-    <lastBuildDate>Sun, 05 Jul 2026 22:37:29 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 23:44:18 +0100</lastBuildDate>
     <item>
       <title>The MAXFINANCE Mobile</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/pacote-fiscal-habitacao-2026-imt-irs-iva-e-arrendamento</link>
+      <link>https://www.maxfinance.pt/pt-pt/blog/banco-de-portugal-reve-regras-do-credito-o-que-muda</link>
       <description>Maxfinance Serviços Check-up Financeiro Crédito Habitação Simuladores Crédito Habitação Transferência de Crédito Habitação Variação da Euribor Mais-valias de imóveis Prestação de crédito após amortização IMI Novo IMT e Imposto de Selo Novo Check-up Financeiro Salário Líquido Novo Blog Franchising</description>
+      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/banco-de-portugal-reve-regras-do-credito-o-que-muda</guid>
+    </item>
+    <item>
+      <title>Pacote fiscal para a habitação 2026: o que muda para compradores, vendedores, inquilinos e senhorios</title>
+      <link>https://www.maxfinance.pt/pt-pt/blog/pacote-fiscal-habitacao-2026-imt-irs-iva-e-arrendamento</link>
+      <description>03.07.2026 O novo pacote fiscal para a habitação introduz alterações relevantes em IMT, IRS, IVA e arrendamento. Neste guia, explicamos as principais medidas, quem pode beneficiar, que prazos deve cumprir e quais os cuidados antes de tomar decisões.</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/pacote-fiscal-habitacao-2026-imt-irs-iva-e-arrendamento</guid>
+      <pubDate>Fri, 03 Jul 2026 09:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Crédito à habitação acelera e mantém trajetória de crescimento em 2026</title>
@@ -62,13 +69,6 @@
       <description>09.06.2026 Quando o assunto é finanças, é comum surgirem conceitos que parecem complexos ou até intimidadores. No entanto, compreender estes conceitos é fundamental para tomar decisões informadas e eficazes.</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/desmistifique-alguns-jargoes-financeiros-9</guid>
       <pubDate>Tue, 09 Jun 2026 09:00:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Comprar casa antes das férias: Como acelerar a aprovação do crédito</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/comprar-casa-antes-das-ferias</link>
-      <description>05.06.2026 Com a chegada do verão, muitas famílias aproveitam os meses antes das férias para tentar concretizar um dos maiores objetivos de vida: comprar casa.</description>
-      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/comprar-casa-antes-das-ferias</guid>
-      <pubDate>Fri, 05 Jun 2026 09:00:00 +0100</pubDate>
     </item>
   </channel>
 </rss>
