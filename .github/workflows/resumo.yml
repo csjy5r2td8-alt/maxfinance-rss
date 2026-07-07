@@ -1,0 +1,56 @@
+name: Resumo diario Maxfinance
+
+on:
+  schedule:
+    # Todos os dias as 07:00 UTC (08:00 em Lisboa no verao, 07:00 no inverno).
+    - cron: "0 7 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  resumo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obter o codigo
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Ler Euribor e blog, preparar email
+        run: python resumo_maxfinance.py
+
+      - name: Preparar o assunto
+        run: echo "ASSUNTO=$(cat resumo_subject.txt)" >> $GITHUB_ENV
+
+      - name: Enviar email
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          from: Resumo Maxfinance <${{ secrets.MAIL_USERNAME }}>
+          to: ${{ secrets.MAIL_TO }}
+          subject: ${{ env.ASSUNTO }}
+          html_body: file://resumo_body.html
+
+      - name: Guardar estado para amanha
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add resumo_estado.json
+          if git diff --staged --quiet; then
+            echo "Sem alteracoes."
+          else
+            git commit -m "Atualizar resumo Maxfinance ($(date -u +%Y-%m-%d))"
+            git push
+          fi
