@@ -1,0 +1,21 @@
+{
+  "data": "2026-07-07",
+  "euribor": {
+    "1 semana": 2.164,
+    "1 mês": 2.224,
+    "3 meses": 2.321,
+    "6 meses": 2.547,
+    "12 meses": 2.693
+  },
+  "blog_urls": [
+    "https://www.maxfinance.pt/pt-pt/blog/bce-volta-subir-juros-o-que-muda-no-seu-credito-habitacao",
+    "https://www.maxfinance.pt/pt-pt/blog/banco-de-portugal-reve-regras-do-credito-o-que-muda",
+    "https://www.maxfinance.pt/pt-pt/blog/pacote-fiscal-habitacao-2026-imt-irs-iva-e-arrendamento",
+    "https://www.maxfinance.pt/pt-pt/blog/credito-habitacao-2026-crescimento-de-108-ao-ano",
+    "https://www.maxfinance.pt/pt-pt/blog/dificuldade-em-pagar-o-condominio-e-prestacao-da-casa",
+    "https://www.maxfinance.pt/pt-pt/blog/isencao-de-imt-e-imposto-do-selo",
+    "https://www.maxfinance.pt/pt-pt/blog/seguro-de-saude-familiar-e-contratacao",
+    "https://www.maxfinance.pt/pt-pt/blog/como-pme-podem-reestruturar-divida-e-garantir-liquidez",
+    "https://www.maxfinance.pt/pt-pt/blog/arrendar-casa-sem-poupancas-que-alternativas-existem"
+  ]
+}
