@@ -1,0 +1,59 @@
+name: Alerta blog Maxfinance
+
+on:
+  schedule:
+    # Todos os dias as 07:00 UTC (08:00 em Lisboa no verao, 07:00 no inverno).
+    - cron: "0 7 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  blog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obter o codigo
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Ver se ha artigos novos
+        run: python blog_alerta.py
+
+      - name: Ler resultado
+        run: |
+          echo "STATUS=$(cat blog_status.txt)" >> $GITHUB_ENV
+          echo "ASSUNTO=$(cat blog_subject.txt 2>/dev/null || echo '')" >> $GITHUB_ENV
+
+      - name: Enviar email (so se houver novidades)
+        if: env.STATUS == 'novos'
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          from: Blog Maxfinance <${{ secrets.MAIL_USERNAME }}>
+          to: ${{ secrets.MAIL_TO }}
+          subject: ${{ env.ASSUNTO }}
+          html_body: file://blog_body.html
+
+      - name: Guardar a lista de artigos vistos
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add blog_vistos.json
+          if git diff --staged --quiet; then
+            echo "Sem alteracoes."
+          else
+            git commit -m "Atualizar artigos vistos ($(date -u +%Y-%m-%d))"
+            git push
+          fi
