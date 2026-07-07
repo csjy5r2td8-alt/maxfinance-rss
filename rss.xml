@@ -7,12 +7,26 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>MaxfinanceRSS</generator>
     <language>pt-pt</language>
-    <lastBuildDate>Mon, 06 Jul 2026 23:44:18 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2026 23:20:37 +0100</lastBuildDate>
     <item>
       <title>The MAXFINANCE Mobile</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/banco-de-portugal-reve-regras-do-credito-o-que-muda</link>
+      <link>https://www.maxfinance.pt/pt-pt/blog/bce-volta-subir-juros-o-que-muda-no-seu-credito-habitacao</link>
       <description>Maxfinance Serviços Check-up Financeiro Crédito Habitação Simuladores Crédito Habitação Transferência de Crédito Habitação Variação da Euribor Mais-valias de imóveis Prestação de crédito após amortização IMI Novo IMT e Imposto de Selo Novo Check-up Financeiro Salário Líquido Novo Blog Franchising</description>
+      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/bce-volta-subir-juros-o-que-muda-no-seu-credito-habitacao</guid>
+    </item>
+    <item>
+      <title>O retrato dos intermediários de crédito em Portugal: um setor mais profissional, digital e preparado para crescer</title>
+      <link>https://www.maxfinance.pt/pt-pt/blog/intermediacao-de-credito-em-portugal-setor-em-crescimento</link>
+      <description>07.07.2026 A intermediação de crédito à habitação continua a ganhar relevância em Portugal.</description>
+      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/intermediacao-de-credito-em-portugal-setor-em-crescimento</guid>
+      <pubDate>Tue, 07 Jul 2026 09:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Banco de Portugal revê regras do crédito: o que muda para quem quer comprar casa?</title>
+      <link>https://www.maxfinance.pt/pt-pt/blog/banco-de-portugal-reve-regras-do-credito-o-que-muda</link>
+      <description>06.07.2026 A partir de 1 de agosto de 2026, entram em vigor novas orientações do Banco de Portugal para a concessão de crédito a consumidores.</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/banco-de-portugal-reve-regras-do-credito-o-que-muda</guid>
+      <pubDate>Mon, 06 Jul 2026 09:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Pacote fiscal para a habitação 2026: o que muda para compradores, vendedores, inquilinos e senhorios</title>
@@ -55,20 +69,6 @@
       <description>16.06.2026 As pequenas e médias empresas (PME) continuam a enfrentar desafios relacionados com o aumento dos custos operacionais, a volatilidade dos mercados e a necessidade de garantir liquidez para manter a</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/como-pme-podem-reestruturar-divida-e-garantir-liquidez</guid>
       <pubDate>Tue, 16 Jun 2026 09:00:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Arrendar casa sem poupanças: que alternativas existem para suportar os custos iniciais?</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/arrendar-casa-sem-poupancas-que-alternativas-existem</link>
-      <description>11.06.2026 Encontrar uma casa para arrendar já não é tarefa fácil.</description>
-      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/arrendar-casa-sem-poupancas-que-alternativas-existem</guid>
-      <pubDate>Thu, 11 Jun 2026 09:00:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Desmistifique alguns jargões financeiros: Elegibilidade, Proponente e Garantia Pública</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/desmistifique-alguns-jargoes-financeiros-9</link>
-      <description>09.06.2026 Quando o assunto é finanças, é comum surgirem conceitos que parecem complexos ou até intimidadores. No entanto, compreender estes conceitos é fundamental para tomar decisões informadas e eficazes.</description>
-      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/desmistifique-alguns-jargoes-financeiros-9</guid>
-      <pubDate>Tue, 09 Jun 2026 09:00:00 +0100</pubDate>
     </item>
   </channel>
 </rss>
