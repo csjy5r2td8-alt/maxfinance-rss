@@ -3,7 +3,7 @@ name: Cambio BHD diario
 on:
   schedule:
     # Todos os dias as 07:00 UTC (08:00 em Lisboa no verao, 07:00 no inverno).
-    - cron: "0 7 * * *"
+    - cron: "1 6 * * *"
   workflow_dispatch:
 
 permissions:
