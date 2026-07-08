@@ -3,7 +3,7 @@ name: Resumo diario Maxfinance
 on:
   schedule:
     # Todos os dias as 07:00 UTC (08:00 em Lisboa no verao, 07:00 no inverno).
-    - cron: "0 7 * * *"
+    - cron: "7 6 * * *"
   workflow_dispatch:
 
 permissions:
