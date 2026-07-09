@@ -1,0 +1,15 @@
+name: Ping Schedule
+
+on:
+  schedule:
+    - cron: '38 14 * * *'
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Teste
+        run: |
+          echo "ping"
+          date
