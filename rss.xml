@@ -7,12 +7,19 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>MaxfinanceRSS</generator>
     <language>pt-pt</language>
-    <lastBuildDate>Wed, 08 Jul 2026 22:48:32 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 23:51:06 +0100</lastBuildDate>
     <item>
       <title>The MAXFINANCE Mobile</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/bce-volta-subir-juros-o-que-muda-no-seu-credito-habitacao</link>
+      <link>https://www.maxfinance.pt/pt-pt/blog/425-subsidio-de-ferias-como-aproveita-lo</link>
       <description>Maxfinance Serviços Check-up Financeiro Crédito Habitação Simuladores Crédito Habitação Transferência de Crédito Habitação Variação da Euribor Mais-valias de imóveis Prestação de crédito após amortização IMI Novo IMT e Imposto de Selo Novo Check-up Financeiro Salário Líquido Novo Blog Franchising</description>
+      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/425-subsidio-de-ferias-como-aproveita-lo</guid>
+    </item>
+    <item>
+      <title>BCE volta a subir juros: o que muda no seu Crédito Habitação?</title>
+      <link>https://www.maxfinance.pt/pt-pt/blog/bce-volta-subir-juros-o-que-muda-no-seu-credito-habitacao</link>
+      <description>07.07.2026 O cenário financeiro na Zona Euro mudou de rumo.</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/bce-volta-subir-juros-o-que-muda-no-seu-credito-habitacao</guid>
+      <pubDate>Tue, 07 Jul 2026 09:00:00 +0100</pubDate>
     </item>
     <item>
       <title>O retrato dos intermediários de crédito em Portugal: um setor mais profissional, digital e preparado para crescer</title>
@@ -62,13 +69,6 @@
       <description>18.06.2026 O acesso aos cuidados de saúde tem sido um tema cada vez mais presente na vida das famílias portuguesas.</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/seguro-de-saude-familiar-e-contratacao</guid>
       <pubDate>Thu, 18 Jun 2026 09:00:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Incerteza económica: Como as PME portuguesas podem reestruturar dívida e garantir liquidez</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/como-pme-podem-reestruturar-divida-e-garantir-liquidez</link>
-      <description>16.06.2026 As pequenas e médias empresas (PME) continuam a enfrentar desafios relacionados com o aumento dos custos operacionais, a volatilidade dos mercados e a necessidade de garantir liquidez para manter a</description>
-      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/como-pme-podem-reestruturar-divida-e-garantir-liquidez</guid>
-      <pubDate>Tue, 16 Jun 2026 09:00:00 +0100</pubDate>
     </item>
   </channel>
 </rss>
