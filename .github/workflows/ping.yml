@@ -3,10 +3,12 @@ name: Ping Schedule
 on:
   schedule:
     - cron: '*/5 * * * *'
-  workflow_dispatch:
 
 jobs:
   ping:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "ping $(date)"
+      - name: Teste
+        run: |
+          echo "ping"
+          date
