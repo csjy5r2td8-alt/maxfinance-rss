@@ -7,12 +7,19 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>MaxfinanceRSS</generator>
     <language>pt-pt</language>
-    <lastBuildDate>Mon, 13 Jul 2026 22:15:17 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 22:32:06 +0100</lastBuildDate>
     <item>
       <title>The MAXFINANCE Mobile</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/425-subsidio-de-ferias-como-aproveita-lo</link>
+      <link>https://www.maxfinance.pt/pt-pt/blog/desmistifique-alguns-jargoes-financeiros-10</link>
       <description>Maxfinance Serviços Check-up Financeiro Crédito Habitação Simuladores Crédito Habitação Transferência de Crédito Habitação Variação da Euribor Mais-valias de imóveis Prestação de crédito após amortização IMI Novo IMT e Imposto de Selo Novo Check-up Financeiro Salário Líquido Novo Blog Franchising</description>
+      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/desmistifique-alguns-jargoes-financeiros-10</guid>
+    </item>
+    <item>
+      <title>Subsídio de férias: Como aproveitá-lo sem comprometer a sua saúde financeira</title>
+      <link>https://www.maxfinance.pt/pt-pt/blog/425-subsidio-de-ferias-como-aproveita-lo</link>
+      <description>09.07.2026 Todos os anos, milhares de portugueses recebem o subsídio de férias. Para muitos, representa uma oportunidade para viajar, fazer compras adiadas ou simplesmente aliviar algumas despesas.</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/425-subsidio-de-ferias-como-aproveita-lo</guid>
+      <pubDate>Thu, 09 Jul 2026 09:00:00 +0100</pubDate>
     </item>
     <item>
       <title>BCE volta a subir juros: o que muda no seu Crédito Habitação?</title>
@@ -62,13 +69,6 @@
       <description>25.06.2026 Comprar casa é um dos momentos mais importantes da vida, mas também um dos que exige maior preparação financeira.</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/isencao-de-imt-e-imposto-do-selo</guid>
       <pubDate>Thu, 25 Jun 2026 09:00:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Seguro de Saúde Familiar: Vale a pena contratar perante a atual pressão sobre o SNS?</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/seguro-de-saude-familiar-e-contratacao</link>
-      <description>18.06.2026 O acesso aos cuidados de saúde tem sido um tema cada vez mais presente na vida das famílias portuguesas.</description>
-      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/seguro-de-saude-familiar-e-contratacao</guid>
-      <pubDate>Thu, 18 Jun 2026 09:00:00 +0100</pubDate>
     </item>
   </channel>
 </rss>
