@@ -1,9 +1,6 @@
 name: Futebol diario
 
 on:
-  schedule:
-    # Todos os dias as 07:00 UTC (08:00 em Lisboa no verao, 07:00 no inverno).
-    # - cron: "27 6 * * *"
   workflow_dispatch:
 
 permissions:
