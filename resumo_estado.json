@@ -1,11 +1,11 @@
 {
-  "data": "2026-07-22",
+  "data": "2026-07-23",
   "euribor": {
-    "1 semana": 2.124,
-    "1 mês": 2.21,
-    "3 meses": 2.483,
-    "6 meses": 2.688,
-    "12 meses": 2.873
+    "1 semana": 2.153,
+    "1 mês": 2.204,
+    "3 meses": 2.475,
+    "6 meses": 2.689,
+    "12 meses": 2.918
   },
   "blog_urls": [
     "https://www.maxfinance.pt/pt-pt/blog/bce-volta-subir-juros-o-que-muda-no-seu-credito-habitacao",
@@ -23,6 +23,8 @@
     "https://www.maxfinance.pt/pt-pt/blog/ainda-vale-pena-transferir-o-credito-habitacao-em-2026",
     "https://www.maxfinance.pt/pt-pt/blog/comprar-casa-no-verao-7-perguntas-antes-de-assinar-o-credito",
     "https://www.maxfinance.pt/pt-pt/blog/10-custos-que-esquece-ao-comprar-casa-alem-da-prestacao",
-    "https://www.maxfinance.pt/pt-pt/blog/credito-obras-renovar-pode-ser-mais-vantajoso-do-que-comprar"
+    "https://www.maxfinance.pt/pt-pt/blog/credito-obras-renovar-pode-ser-mais-vantajoso-do-que-comprar",
+    "https://www.maxfinance.pt/pt-pt/blog/feed",
+    "https://www.maxfinance.pt/pt-pt/blog/liberdade-de-decidir-exige-responsabilidade"
   ]
 }
