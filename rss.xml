@@ -7,12 +7,19 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>MaxfinanceRSS</generator>
     <language>pt-pt</language>
-    <lastBuildDate>Wed, 22 Jul 2026 22:41:41 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 22:38:01 +0100</lastBuildDate>
     <item>
       <title>The MAXFINANCE Mobile</title>
       <link>https://www.maxfinance.pt/pt-pt/blog/feed</link>
       <description>Maxfinance Serviços Check-up Financeiro Crédito Habitação Simuladores Crédito Habitação Transferência de Crédito Habitação Variação da Euribor Mais-valias de imóveis Prestação de crédito após amortização IMI Novo IMT e Imposto de Selo Novo Check-up Financeiro Salário Líquido Novo Blog Franchising</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/feed</guid>
+    </item>
+    <item>
+      <title>Piscina, painéis solares ou isolamento térmico: que melhorias valorizam mais a sua casa?</title>
+      <link>https://www.maxfinance.pt/pt-pt/blog/piscina-paineis-solares-ou-isolamento-termico-que-melhoria</link>
+      <description>23.07.2026 A resposta é: depende do que se está à procura. Destas três melhorias, só uma é obrigatória por lei.</description>
+      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/piscina-paineis-solares-ou-isolamento-termico-que-melhoria</guid>
+      <pubDate>Thu, 23 Jul 2026 09:00:00 +0100</pubDate>
     </item>
     <item>
       <title>A liberdade de decidir exige responsabilidade</title>
@@ -68,13 +75,6 @@
       <link>https://www.maxfinance.pt/pt-pt/blog/bce-volta-subir-juros-o-que-muda-no-seu-credito-habitacao</link>
       <description>07.07.2026 O cenário financeiro na Zona Euro mudou de rumo.</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/bce-volta-subir-juros-o-que-muda-no-seu-credito-habitacao</guid>
-      <pubDate>Tue, 07 Jul 2026 09:00:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>O retrato dos intermediários de crédito em Portugal: um setor mais profissional, digital e preparado para crescer</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/intermediacao-de-credito-em-portugal-setor-em-crescimento</link>
-      <description>07.07.2026 A intermediação de crédito à habitação continua a ganhar relevância em Portugal.</description>
-      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/intermediacao-de-credito-em-portugal-setor-em-crescimento</guid>
       <pubDate>Tue, 07 Jul 2026 09:00:00 +0100</pubDate>
     </item>
   </channel>
