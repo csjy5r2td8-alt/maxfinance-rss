@@ -1,9 +1,9 @@
 {
-  "data": "2026-07-23",
+  "data": "2026-07-24",
   "taxas": {
     "USD": {
-      "compra": 56.05,
-      "venda": 60.0
+      "compra": 55.85,
+      "venda": 59.8
     },
     "EUR": {
       "compra": 65.5,
