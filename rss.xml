@@ -7,12 +7,19 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>MaxfinanceRSS</generator>
     <language>pt-pt</language>
-    <lastBuildDate>Thu, 23 Jul 2026 22:38:01 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 22:44:10 +0100</lastBuildDate>
     <item>
       <title>The MAXFINANCE Mobile</title>
       <link>https://www.maxfinance.pt/pt-pt/blog/feed</link>
       <description>Maxfinance Serviços Check-up Financeiro Crédito Habitação Simuladores Crédito Habitação Transferência de Crédito Habitação Variação da Euribor Mais-valias de imóveis Prestação de crédito após amortização IMI Novo IMT e Imposto de Selo Novo Check-up Financeiro Salário Líquido Novo Blog Franchising</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/feed</guid>
+    </item>
+    <item>
+      <title>O que está a acontecer às taxas Euribor e como afeta as famílias</title>
+      <link>https://www.maxfinance.pt/pt-pt/blog/euribor-esta-subir-o-que-muda-no-credito-habitacao</link>
+      <description>24.07.2026 Depois de um período de descidas que trouxe algum alívio às prestações do crédito habitação, as taxas Euribor voltaram a dar sinais de subida nas últimas semanas.</description>
+      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/euribor-esta-subir-o-que-muda-no-credito-habitacao</guid>
+      <pubDate>Fri, 24 Jul 2026 09:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Piscina, painéis solares ou isolamento térmico: que melhorias valorizam mais a sua casa?</title>
@@ -69,13 +76,6 @@
       <description>09.07.2026 Todos os anos, milhares de portugueses recebem o subsídio de férias. Para muitos, representa uma oportunidade para viajar, fazer compras adiadas ou simplesmente aliviar algumas despesas.</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/425-subsidio-de-ferias-como-aproveita-lo</guid>
       <pubDate>Thu, 09 Jul 2026 09:00:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>BCE volta a subir juros: o que muda no seu Crédito Habitação?</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/bce-volta-subir-juros-o-que-muda-no-seu-credito-habitacao</link>
-      <description>07.07.2026 O cenário financeiro na Zona Euro mudou de rumo.</description>
-      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/bce-volta-subir-juros-o-que-muda-no-seu-credito-habitacao</guid>
-      <pubDate>Tue, 07 Jul 2026 09:00:00 +0100</pubDate>
     </item>
   </channel>
 </rss>
