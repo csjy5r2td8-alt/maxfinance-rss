@@ -7,12 +7,19 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>MaxfinanceRSS</generator>
     <language>pt-pt</language>
-    <lastBuildDate>Wed, 29 Jul 2026 19:51:18 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 20:05:53 +0100</lastBuildDate>
     <item>
       <title>The MAXFINANCE Mobile</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/vai-de-ferias-7-cuidados-para-proteger-sua-carteira</link>
+      <link>https://www.maxfinance.pt/pt-pt/blog/como-calcular-o-verdadeiro-custo-de-um-credito</link>
       <description>Maxfinance Serviços Check-up Financeiro Crédito Habitação Simuladores Crédito Habitação Transferência de Crédito Habitação Variação da Euribor Mais-valias de imóveis Prestação de crédito após amortização IMI Novo IMT e Imposto de Selo Novo Check-up Financeiro Salário Líquido Novo Blog Franchising</description>
+      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/como-calcular-o-verdadeiro-custo-de-um-credito</guid>
+    </item>
+    <item>
+      <title>Vai de férias? 7 cuidados para proteger a sua carteira contra fraudes e burlas</title>
+      <link>https://www.maxfinance.pt/pt-pt/blog/vai-de-ferias-7-cuidados-para-proteger-sua-carteira</link>
+      <description>28.07.2026 Nas férias os burlões não descansam. Para melhor proteger a sua carteira e conta bancária, basta adotar alguns cuidados simples que podem evitar dissabores durante o verão.</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/vai-de-ferias-7-cuidados-para-proteger-sua-carteira</guid>
+      <pubDate>Tue, 28 Jul 2026 09:00:00 +0100</pubDate>
     </item>
     <item>
       <title>O banco aprovou o seu crédito habitação. Mas será que essa é a melhor decisão para o seu orçamento?</title>
@@ -62,13 +69,6 @@
       <description>17.07.2026 O verão continua a ser uma das épocas preferidas dos portugueses para procurar e comprar casa.</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/comprar-casa-no-verao-7-perguntas-antes-de-assinar-o-credito</guid>
       <pubDate>Fri, 17 Jul 2026 09:00:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Ainda vale a pena transferir o crédito habitação em 2026?</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/ainda-vale-pena-transferir-o-credito-habitacao-em-2026</link>
-      <description>16.07.2026 Durante os últimos anos, muitos portugueses optaram por transferir o crédito habitação para outro banco, procurando reduzir a prestação mensal ou obter melhores condições.</description>
-      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/ainda-vale-pena-transferir-o-credito-habitacao-em-2026</guid>
-      <pubDate>Thu, 16 Jul 2026 09:00:00 +0100</pubDate>
     </item>
   </channel>
 </rss>
