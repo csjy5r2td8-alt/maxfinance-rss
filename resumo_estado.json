@@ -1,11 +1,11 @@
 {
-  "data": "2026-08-01",
+  "data": "2026-08-02",
   "euribor": {
-    "1 semana": 2.137,
-    "1 mês": 2.206,
-    "3 meses": 2.472,
-    "6 meses": 2.681,
-    "12 meses": 2.958
+    "1 semana": 2.165,
+    "1 mês": 2.209,
+    "3 meses": 2.484,
+    "6 meses": 2.706,
+    "12 meses": 2.964
   },
   "blog_urls": [
     "https://www.maxfinance.pt/pt-pt/blog/bce-volta-subir-juros-o-que-muda-no-seu-credito-habitacao",
