@@ -23,9 +23,16 @@ NOMES = {"EUR": "Euro", "USD": "Dólar"}
 
 def fetch_rates():
     headers = {
-        "User-Agent": "Mozilla/5.0 (compatible; CambioBHD/1.0)",
-        "Accept": "application/json",
+        "User-Agent": ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                       "AppleWebKit/537.36 (KHTML, like Gecko) "
+                       "Chrome/126.0.0.0 Safari/537.36"),
+        "Accept": "application/json, text/plain, */*",
+        "Accept-Language": "pt-PT,pt;q=0.9,en;q=0.8",
         "Origin": "https://bhd.com.do",
+        "Referer": "https://bhd.com.do/",
+        "Sec-Fetch-Site": "same-site",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Dest": "empty",
     }
     r = requests.get(URL, headers=headers, timeout=30)
     r.raise_for_status()
