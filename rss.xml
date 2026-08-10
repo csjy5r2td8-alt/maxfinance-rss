@@ -7,12 +7,19 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>MaxfinanceRSS</generator>
     <language>pt-pt</language>
-    <lastBuildDate>Sun, 09 Aug 2026 19:21:17 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 19:39:21 +0100</lastBuildDate>
     <item>
       <title>The MAXFINANCE Mobile</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/os-melhores-hobbies-de-verao-nao-tem-de-pesar-na-carteira</link>
+      <link>https://www.maxfinance.pt/pt-pt/blog/quanto-preciso-de-poupar-para-comprar-casa-guia-completo</link>
       <description>Maxfinance Serviços Check-up Financeiro Crédito Habitação Simuladores Crédito Habitação Transferência de Crédito Habitação Variação da Euribor Mais-valias de imóveis Prestação de crédito após amortização IMI Novo IMT e Imposto de Selo Novo Check-up Financeiro Salário Líquido Novo Blog Franchising</description>
+      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/quanto-preciso-de-poupar-para-comprar-casa-guia-completo</guid>
+    </item>
+    <item>
+      <title>Os melhores hobbies de verão não têm de pesar na carteira</title>
+      <link>https://www.maxfinance.pt/pt-pt/blog/os-melhores-hobbies-de-verao-nao-tem-de-pesar-na-carteira</link>
+      <description>06.08.2026 Os dias longos, o bom tempo e as férias convidam a sair de casa e a aproveitar o verão. Mas desfrutar desta época não significa, necessariamente, gastar mais dinheiro.</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/os-melhores-hobbies-de-verao-nao-tem-de-pesar-na-carteira</guid>
+      <pubDate>Thu, 06 Aug 2026 09:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Taxa de esforço desce para 45%: o que significa para quem quer comprar casa?</title>
@@ -62,13 +69,6 @@
       <description>22.07.2026 Nunca tivemos tanta liberdade para decidir. E nunca estivemos tão pouco preparados para lidar com as consequências das nossas escolhas.</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/liberdade-de-decidir-exige-responsabilidade</guid>
       <pubDate>Wed, 22 Jul 2026 09:00:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Crédito para obras: renovar a casa pode ser mais vantajoso do que comprar?</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/credito-obras-renovar-pode-ser-mais-vantajoso-do-que-comprar</link>
-      <description>21.07.2026 Comprar uma casa nova ou optar por um imóvel para remodelar? Depende sempre do orçamento disponível, das necessidades da família e da disponibilidade para acompanhar a obra.</description>
-      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/credito-obras-renovar-pode-ser-mais-vantajoso-do-que-comprar</guid>
-      <pubDate>Tue, 21 Jul 2026 09:00:00 +0100</pubDate>
     </item>
   </channel>
 </rss>
