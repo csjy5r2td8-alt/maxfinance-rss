@@ -7,12 +7,19 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>MaxfinanceRSS</generator>
     <language>pt-pt</language>
-    <lastBuildDate>Mon, 10 Aug 2026 19:39:21 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 19:43:13 +0100</lastBuildDate>
     <item>
       <title>The MAXFINANCE Mobile</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/quanto-preciso-de-poupar-para-comprar-casa-guia-completo</link>
+      <link>https://www.maxfinance.pt/pt-pt/blog/o-desafio-dos-30-dias-poupe-sem-abdicar-do-verao</link>
       <description>Maxfinance Serviços Check-up Financeiro Crédito Habitação Simuladores Crédito Habitação Transferência de Crédito Habitação Variação da Euribor Mais-valias de imóveis Prestação de crédito após amortização IMI Novo IMT e Imposto de Selo Novo Check-up Financeiro Salário Líquido Novo Blog Franchising</description>
+      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/o-desafio-dos-30-dias-poupe-sem-abdicar-do-verao</guid>
+    </item>
+    <item>
+      <title>Quanto precisa realmente de poupar antes de comprar casa?</title>
+      <link>https://www.maxfinance.pt/pt-pt/blog/quanto-preciso-de-poupar-para-comprar-casa-guia-completo</link>
+      <description>10.08.2026 Uma das primeiras perguntas que surge quando se pensa em comprar casa é simples: quanto dinheiro preciso de ter poupado?</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/quanto-preciso-de-poupar-para-comprar-casa-guia-completo</guid>
+      <pubDate>Mon, 10 Aug 2026 09:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Os melhores hobbies de verão não têm de pesar na carteira</title>
@@ -62,13 +69,6 @@
       <description>23.07.2026 A resposta é: depende do que se está à procura. Destas três melhorias, só uma é obrigatória por lei.</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/piscina-paineis-solares-ou-isolamento-termico-que-melhoria</guid>
       <pubDate>Thu, 23 Jul 2026 09:00:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>A liberdade de decidir exige responsabilidade</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/liberdade-de-decidir-exige-responsabilidade</link>
-      <description>22.07.2026 Nunca tivemos tanta liberdade para decidir. E nunca estivemos tão pouco preparados para lidar com as consequências das nossas escolhas.</description>
-      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/liberdade-de-decidir-exige-responsabilidade</guid>
-      <pubDate>Wed, 22 Jul 2026 09:00:00 +0100</pubDate>
     </item>
   </channel>
 </rss>
