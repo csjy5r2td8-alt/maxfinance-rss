@@ -1,11 +1,11 @@
 {
-  "data": "2026-08-11",
+  "data": "2026-08-12",
   "euribor": {
-    "1 semana": 2.132,
-    "1 mês": 2.201,
-    "3 meses": 2.474,
-    "6 meses": 2.683,
-    "12 meses": 2.898
+    "1 semana": 2.104,
+    "1 mês": 2.175,
+    "3 meses": 2.475,
+    "6 meses": 2.662,
+    "12 meses": 2.905
   },
   "blog_urls": [
     "https://www.maxfinance.pt/pt-pt/blog/bce-volta-subir-juros-o-que-muda-no-seu-credito-habitacao",
@@ -33,6 +33,7 @@
     "https://www.maxfinance.pt/pt-pt/blog/como-calcular-o-verdadeiro-custo-de-um-credito",
     "https://www.maxfinance.pt/pt-pt/blog/taxa-de-esforco-desce-para-45",
     "https://www.maxfinance.pt/pt-pt/blog/os-melhores-hobbies-de-verao-nao-tem-de-pesar-na-carteira",
-    "https://www.maxfinance.pt/pt-pt/blog/quanto-preciso-de-poupar-para-comprar-casa-guia-completo"
+    "https://www.maxfinance.pt/pt-pt/blog/quanto-preciso-de-poupar-para-comprar-casa-guia-completo",
+    "https://www.maxfinance.pt/pt-pt/blog/o-desafio-dos-30-dias-poupe-sem-abdicar-do-verao"
   ]
 }
