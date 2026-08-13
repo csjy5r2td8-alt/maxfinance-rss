@@ -7,12 +7,19 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>MaxfinanceRSS</generator>
     <language>pt-pt</language>
-    <lastBuildDate>Wed, 12 Aug 2026 19:44:10 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 19:44:51 +0100</lastBuildDate>
     <item>
       <title>The MAXFINANCE Mobile</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/vouchers-mega-o-que-ainda-pesa-no-regresso-aulas</link>
+      <link>https://www.maxfinance.pt/pt-pt/blog/desmistifique-alguns-jargoes-financeiros-11</link>
       <description>Maxfinance Serviços Check-up Financeiro Crédito Habitação Simuladores Crédito Habitação Transferência de Crédito Habitação Variação da Euribor Mais-valias de imóveis Prestação de crédito após amortização IMI Novo IMT e Imposto de Selo Novo Check-up Financeiro Salário Líquido Novo Blog Franchising</description>
+      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/desmistifique-alguns-jargoes-financeiros-11</guid>
+    </item>
+    <item>
+      <title>Vouchers MEGA: como funcionam e que despesas continuam a pesar no regresso às aulas</title>
+      <link>https://www.maxfinance.pt/pt-pt/blog/vouchers-mega-o-que-ainda-pesa-no-regresso-aulas</link>
+      <description>12.08.2026 Todos os anos, milhares de famílias portuguesas preparam o regresso às aulas com uma boa notícia: os manuais escolares são gratuitos para os alunos da escolaridade obrigatória do ensino público atr</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/vouchers-mega-o-que-ainda-pesa-no-regresso-aulas</guid>
+      <pubDate>Wed, 12 Aug 2026 09:00:00 +0100</pubDate>
     </item>
     <item>
       <title>O desafio dos 30 dias: poupe sem abdicar do verão</title>
@@ -62,13 +69,6 @@
       <description>27.07.2026 Receber a aprovação de um crédito habitação é um dos momentos mais importantes para quem está a comprar casa.</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/credito-aprovado-sera-melhor-opcao-para-o-seu-orcamento</guid>
       <pubDate>Mon, 27 Jul 2026 09:00:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>O que está a acontecer às taxas Euribor e como afeta as famílias</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/euribor-esta-subir-o-que-muda-no-credito-habitacao</link>
-      <description>24.07.2026 Depois de um período de descidas que trouxe algum alívio às prestações do crédito habitação, as taxas Euribor voltaram a dar sinais de subida nas últimas semanas.</description>
-      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/euribor-esta-subir-o-que-muda-no-credito-habitacao</guid>
-      <pubDate>Fri, 24 Jul 2026 09:00:00 +0100</pubDate>
     </item>
   </channel>
 </rss>
