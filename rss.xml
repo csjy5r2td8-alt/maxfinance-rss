@@ -7,12 +7,19 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>MaxfinanceRSS</generator>
     <language>pt-pt</language>
-    <lastBuildDate>Mon, 17 Aug 2026 19:20:11 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 19:19:03 +0100</lastBuildDate>
     <item>
       <title>The MAXFINANCE Mobile</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/7-documentos-para-pedir-credito-habitacao-sem-atrasos</link>
+      <link>https://www.maxfinance.pt/pt-pt/blog/educacao-financeira-estaremos-longe-da-media-europeia</link>
       <description>Maxfinance Serviços Check-up Financeiro Crédito Habitação Simuladores Crédito Habitação Transferência de Crédito Habitação Variação da Euribor Mais-valias de imóveis Prestação de crédito após amortização IMI Novo IMT e Imposto de Selo Novo Check-up Financeiro Salário Líquido Novo Blog Franchising</description>
+      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/educacao-financeira-estaremos-longe-da-media-europeia</guid>
+    </item>
+    <item>
+      <title>Os sete documentos que deve preparar antes de pedir crédito habitação</title>
+      <link>https://www.maxfinance.pt/pt-pt/blog/7-documentos-para-pedir-credito-habitacao-sem-atrasos</link>
+      <description>17.08.2026 Comprar casa é um dos momentos mais importantes da vida de muitas famílias.</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/7-documentos-para-pedir-credito-habitacao-sem-atrasos</guid>
+      <pubDate>Mon, 17 Aug 2026 09:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Crédito pessoal: quando faz sentido recorrer a esta solução?</title>
@@ -62,13 +69,6 @@
       <description>04.08.2026 O início do mês de agosto de 2026 marcou a entrada em vigor das novas regras do Banco de Portugal para a concessão de crédito à habitação.</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/taxa-de-esforco-desce-para-45</guid>
       <pubDate>Tue, 04 Aug 2026 09:00:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Como calcular o verdadeiro custo de um crédito e evitar surpresas?</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/como-calcular-o-verdadeiro-custo-de-um-credito</link>
-      <description>30.07.2026 Quando se procura um crédito, é natural que a primeira pergunta seja: "Quanto vou pagar por mês ?" No entanto, focar-se apenas na prestação mensal pode levar a uma decisão menos vantajosa.</description>
-      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/como-calcular-o-verdadeiro-custo-de-um-credito</guid>
-      <pubDate>Thu, 30 Jul 2026 09:00:00 +0100</pubDate>
     </item>
   </channel>
 </rss>
