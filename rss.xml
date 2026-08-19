@@ -7,12 +7,26 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>MaxfinanceRSS</generator>
     <language>pt-pt</language>
-    <lastBuildDate>Tue, 18 Aug 2026 19:19:03 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 19:15:43 +0100</lastBuildDate>
     <item>
       <title>The MAXFINANCE Mobile</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/educacao-financeira-estaremos-longe-da-media-europeia</link>
+      <link>https://www.maxfinance.pt/pt-pt/blog/credito-pessoal-para-consolidar-dividas-solucao-ou-armadilha</link>
       <description>Maxfinance Serviços Check-up Financeiro Crédito Habitação Simuladores Crédito Habitação Transferência de Crédito Habitação Variação da Euribor Mais-valias de imóveis Prestação de crédito após amortização IMI Novo IMT e Imposto de Selo Novo Check-up Financeiro Salário Líquido Novo Blog Franchising</description>
+      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/credito-pessoal-para-consolidar-dividas-solucao-ou-armadilha</guid>
+    </item>
+    <item>
+      <title>Comprar uma casa nova ou usada: o que pesa mais no orçamento a longo prazo?</title>
+      <link>https://www.maxfinance.pt/pt-pt/blog/casa-nova-ou-usada-o-que-pesa-mais-no-orcamento</link>
+      <description>19.08.2026 Quando chega o momento de comprar casa, uma das primeiras decisões é também uma das mais difíceis: optar por um imóvel novo ou por uma casa mais antiga.</description>
+      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/casa-nova-ou-usada-o-que-pesa-mais-no-orcamento</guid>
+      <pubDate>Wed, 19 Aug 2026 09:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Educação financeira em Portugal: ainda estamos longe da média europeia?</title>
+      <link>https://www.maxfinance.pt/pt-pt/blog/educacao-financeira-estaremos-longe-da-media-europeia</link>
+      <description>18.08.2026 Falar de dinheiro continua a ser, para muitos portugueses, um tema desconfortável.</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/educacao-financeira-estaremos-longe-da-media-europeia</guid>
+      <pubDate>Tue, 18 Aug 2026 09:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Os sete documentos que deve preparar antes de pedir crédito habitação</title>
@@ -55,20 +69,6 @@
       <description>10.08.2026 Uma das primeiras perguntas que surge quando se pensa em comprar casa é simples: quanto dinheiro preciso de ter poupado?</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/quanto-preciso-de-poupar-para-comprar-casa-guia-completo</guid>
       <pubDate>Mon, 10 Aug 2026 09:00:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Os melhores hobbies de verão não têm de pesar na carteira</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/os-melhores-hobbies-de-verao-nao-tem-de-pesar-na-carteira</link>
-      <description>06.08.2026 Os dias longos, o bom tempo e as férias convidam a sair de casa e a aproveitar o verão. Mas desfrutar desta época não significa, necessariamente, gastar mais dinheiro.</description>
-      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/os-melhores-hobbies-de-verao-nao-tem-de-pesar-na-carteira</guid>
-      <pubDate>Thu, 06 Aug 2026 09:00:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Taxa de esforço desce para 45%: o que significa para quem quer comprar casa?</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/taxa-de-esforco-desce-para-45</link>
-      <description>04.08.2026 O início do mês de agosto de 2026 marcou a entrada em vigor das novas regras do Banco de Portugal para a concessão de crédito à habitação.</description>
-      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/taxa-de-esforco-desce-para-45</guid>
-      <pubDate>Tue, 04 Aug 2026 09:00:00 +0100</pubDate>
     </item>
   </channel>
 </rss>
