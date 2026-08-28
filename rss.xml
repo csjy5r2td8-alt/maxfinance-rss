@@ -7,12 +7,19 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>MaxfinanceRSS</generator>
     <language>pt-pt</language>
-    <lastBuildDate>Wed, 26 Aug 2026 20:29:37 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 02:50:29 +0100</lastBuildDate>
     <item>
       <title>The MAXFINANCE Mobile</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/arrendamento-vai-mudar-o-que-significa-para-si</link>
+      <link>https://www.maxfinance.pt/pt-pt/blog/regresso-das-ferias-como-recuperar-financas-sem-dividas</link>
       <description>Maxfinance Serviços Check-up Financeiro Crédito Habitação Simuladores Crédito Habitação Transferência de Crédito Habitação Variação da Euribor Mais-valias de imóveis Prestação de crédito após amortização IMI Novo IMT e Imposto de Selo Novo Check-up Financeiro Salário Líquido Novo Blog Franchising</description>
+      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/regresso-das-ferias-como-recuperar-financas-sem-dividas</guid>
+    </item>
+    <item>
+      <title>O arrendamento pode voltar a mudar. O que significa isso para quem tem ou procura casa?</title>
+      <link>https://www.maxfinance.pt/pt-pt/blog/arrendamento-vai-mudar-o-que-significa-para-si</link>
+      <description>26.08.2026 Nos últimos dias muito se tem falado sobre uma proposta de alteração às regras do arrendamento urbano.</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/arrendamento-vai-mudar-o-que-significa-para-si</guid>
+      <pubDate>Wed, 26 Aug 2026 09:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Está preparado para comprar casa nos próximos 12 meses? Faça este teste</title>
@@ -62,13 +69,6 @@
       <description>19.08.2026 Quando chega o momento de comprar casa, uma das primeiras decisões é também uma das mais difíceis: optar por um imóvel novo ou por uma casa mais antiga.</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/casa-nova-ou-usada-o-que-pesa-mais-no-orcamento</guid>
       <pubDate>Wed, 19 Aug 2026 09:00:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Educação financeira em Portugal: ainda estamos longe da média europeia?</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/educacao-financeira-estaremos-longe-da-media-europeia</link>
-      <description>18.08.2026 Falar de dinheiro continua a ser, para muitos portugueses, um tema desconfortável.</description>
-      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/educacao-financeira-estaremos-longe-da-media-europeia</guid>
-      <pubDate>Tue, 18 Aug 2026 09:00:00 +0100</pubDate>
     </item>
   </channel>
 </rss>
