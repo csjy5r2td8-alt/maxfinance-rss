@@ -7,12 +7,19 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>MaxfinanceRSS</generator>
     <language>pt-pt</language>
-    <lastBuildDate>Fri, 28 Aug 2026 02:50:29 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2026 02:14:21 +0100</lastBuildDate>
     <item>
       <title>The MAXFINANCE Mobile</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/regresso-das-ferias-como-recuperar-financas-sem-dividas</link>
+      <link>https://www.maxfinance.pt/pt-pt/blog/comprar-casa-decisao-comeca-antes-da-primeira-visita</link>
       <description>Maxfinance Serviços Check-up Financeiro Crédito Habitação Simuladores Crédito Habitação Transferência de Crédito Habitação Variação da Euribor Mais-valias de imóveis Prestação de crédito após amortização IMI Novo IMT e Imposto de Selo Novo Check-up Financeiro Salário Líquido Novo Blog Franchising</description>
+      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/comprar-casa-decisao-comeca-antes-da-primeira-visita</guid>
+    </item>
+    <item>
+      <title>Regresso das férias: como recuperar a saúde financeira sem entrar em dívida</title>
+      <link>https://www.maxfinance.pt/pt-pt/blog/regresso-das-ferias-como-recuperar-financas-sem-dividas</link>
+      <description>27.08.2026 As férias são momentos para descansar, criar memórias e recarregar energias. No entanto, é frequente que setembro traga consigo uma sensação de que o orçamento ficou mais apertado.</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/regresso-das-ferias-como-recuperar-financas-sem-dividas</guid>
+      <pubDate>Thu, 27 Aug 2026 09:00:00 +0100</pubDate>
     </item>
     <item>
       <title>O arrendamento pode voltar a mudar. O que significa isso para quem tem ou procura casa?</title>
@@ -23,9 +30,9 @@
     </item>
     <item>
       <title>Está preparado para comprar casa nos próximos 12 meses? Faça este teste</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/pode-comprar-casa-nos-proximos-12-meses-faca-o-teste</link>
+      <link>https://www.maxfinance.pt/pt-pt/blog/preparado-para-comprar-casa-nos-proximos-meses-faca-o-teste</link>
       <description>25.08.2026 Comprar casa é, para a maioria das pessoas, uma das decisões financeiras mais importantes da vida.</description>
-      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/pode-comprar-casa-nos-proximos-12-meses-faca-o-teste</guid>
+      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/preparado-para-comprar-casa-nos-proximos-meses-faca-o-teste</guid>
       <pubDate>Tue, 25 Aug 2026 09:00:00 +0100</pubDate>
     </item>
     <item>
@@ -61,13 +68,6 @@
       <link>https://www.maxfinance.pt/pt-pt/blog/credito-pessoal-para-consolidar-dividas-solucao-ou-armadilha</link>
       <description>19.08.2026 Quando existem vários créditos em simultâneo, gerir diferentes prestações, datas de pagamento e taxas de juro pode tornar-se um verdadeiro desafio.</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/credito-pessoal-para-consolidar-dividas-solucao-ou-armadilha</guid>
-      <pubDate>Wed, 19 Aug 2026 09:00:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Comprar uma casa nova ou usada: o que pesa mais no orçamento a longo prazo?</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/casa-nova-ou-usada-o-que-pesa-mais-no-orcamento</link>
-      <description>19.08.2026 Quando chega o momento de comprar casa, uma das primeiras decisões é também uma das mais difíceis: optar por um imóvel novo ou por uma casa mais antiga.</description>
-      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/casa-nova-ou-usada-o-que-pesa-mais-no-orcamento</guid>
       <pubDate>Wed, 19 Aug 2026 09:00:00 +0100</pubDate>
     </item>
   </channel>
