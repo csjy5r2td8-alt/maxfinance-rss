@@ -1,0 +1,45 @@
+name: Noticias e tempo diario
+ 
+on:
+  workflow_dispatch:
+ 
+permissions:
+  contents: read
+ 
+jobs:
+  noticias_tempo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obter o codigo
+        uses: actions/checkout@v4
+ 
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+ 
+      - name: Instalar dependencias
+        run: pip install requests
+ 
+      - name: Ler noticias e tempo, preparar email
+        run: python noticias_tempo.py
+ 
+      - name: Preparar o assunto
+        run: echo "ASSUNTO=$(cat noticias_tempo_subject.txt)" >> $GITHUB_ENV
+ 
+      - name: Enviar email
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          from: Noticias e Tempo <${{ secrets.MAIL_USERNAME }}>
+          to: ${{ secrets.MAIL_TO }}
+          subject: ${{ env.ASSUNTO }}
+          html_body: file://noticias_tempo_body.html
+ 
+
+
+
