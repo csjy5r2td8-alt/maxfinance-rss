@@ -25,7 +25,9 @@ UA = {
 # --- Noticias: feeds do Google News (publicos, sem chave) ---
 FEED_MUNDO = "https://news.google.com/rss/headlines/section/topic/WORLD?hl=pt-PT&gl=PT&ceid=PT:pt"
 FEED_PORTUGAL = "https://news.google.com/rss?hl=pt-PT&gl=PT&ceid=PT:pt"
-FEED_RD = "https://news.google.com/rss?hl=es-DO&gl=DO&ceid=DO:es"
+FEED_RD = "https://news.google.com/rss?hl=es-419&gl=DO&ceid=DO:es-419"
+FEED_RD_ALT = ("https://news.google.com/rss/search?q=Rep%C3%BAblica+Dominicana"
+               "&hl=es-419&gl=DO&ceid=DO:es-419")
 FEED_DESPORTO = "https://news.google.com/rss/headlines/section/topic/SPORTS?hl=pt-PT&gl=PT&ceid=PT:pt"
 FEED_SPORTING = ('https://news.google.com/rss/search?q=%22Sporting+CP%22+OR+%22Sporting+'
                  'Clube+de+Portugal%22&hl=pt-PT&gl=PT&ceid=PT:pt')
@@ -200,6 +202,8 @@ def main():
     noticias_mundo = get_noticias(FEED_MUNDO)
     noticias_pt = get_noticias(FEED_PORTUGAL)
     noticias_rd = get_noticias(FEED_RD)
+    if not noticias_rd:
+        noticias_rd = get_noticias(FEED_RD_ALT)
     noticias_desporto = get_noticias(FEED_DESPORTO)
     noticias_sporting = get_noticias(FEED_SPORTING)
  
