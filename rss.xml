@@ -7,12 +7,19 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>MaxfinanceRSS</generator>
     <language>pt-pt</language>
-    <lastBuildDate>Mon, 31 Aug 2026 23:07:07 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 21:14:36 +0100</lastBuildDate>
     <item>
       <title>The MAXFINANCE Mobile</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/comprar-casa-decisao-comeca-antes-da-primeira-visita</link>
+      <link>https://www.maxfinance.pt/pt-pt/blog/nova-regra-na-documentacao-dos-imoveis-o-que-muda-em-2026</link>
       <description>Maxfinance Serviços Check-up Financeiro Crédito Habitação Simuladores Crédito Habitação Transferência de Crédito Habitação Variação da Euribor Mais-valias de imóveis Prestação de crédito após amortização IMI Novo IMT e Imposto de Selo Novo Check-up Financeiro Salário Líquido Novo Blog Franchising</description>
+      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/nova-regra-na-documentacao-dos-imoveis-o-que-muda-em-2026</guid>
+    </item>
+    <item>
+      <title>Vai comprar casa? A decisão começa muito antes da primeira visita</title>
+      <link>https://www.maxfinance.pt/pt-pt/blog/comprar-casa-decisao-comeca-antes-da-primeira-visita</link>
+      <description>28.08.2026 Quando alguém decide comprar uma casa, a primeira ação é quase sempre a mesma: começar a procurar imóveis nos portais imobiliários.</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/comprar-casa-decisao-comeca-antes-da-primeira-visita</guid>
+      <pubDate>Fri, 28 Aug 2026 09:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Regresso das férias: como recuperar a saúde financeira sem entrar em dívida</title>
@@ -62,13 +69,6 @@
       <description>20.08.2026 Setembro é sinónimo de recomeços. Para milhares de famílias, é também um dos meses em que as despesas disparam.</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/regresso-aulas-como-poupar-sem-perder-qualidade</guid>
       <pubDate>Thu, 20 Aug 2026 09:00:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Crédito pessoal para consolidar dívidas: solução ou armadilha?</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/credito-pessoal-para-consolidar-dividas-solucao-ou-armadilha</link>
-      <description>19.08.2026 Quando existem vários créditos em simultâneo, gerir diferentes prestações, datas de pagamento e taxas de juro pode tornar-se um verdadeiro desafio.</description>
-      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/credito-pessoal-para-consolidar-dividas-solucao-ou-armadilha</guid>
-      <pubDate>Wed, 19 Aug 2026 09:00:00 +0100</pubDate>
     </item>
   </channel>
 </rss>
