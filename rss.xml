@@ -7,12 +7,26 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>MaxfinanceRSS</generator>
     <language>pt-pt</language>
-    <lastBuildDate>Wed, 02 Sep 2026 21:17:07 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 21:13:05 +0100</lastBuildDate>
     <item>
       <title>The MAXFINANCE Mobile</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/nova-regra-na-documentacao-dos-imoveis-o-que-muda-em-2026</link>
+      <link>https://www.maxfinance.pt/pt-pt/blog/recebeu-uma-heranca-o-que-deve-saber</link>
       <description>Maxfinance Serviços Check-up Financeiro Crédito Habitação Simuladores Crédito Habitação Transferência de Crédito Habitação Variação da Euribor Mais-valias de imóveis Prestação de crédito após amortização IMI Novo IMT e Imposto de Selo Novo Check-up Financeiro Salário Líquido Novo Blog Franchising</description>
+      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/recebeu-uma-heranca-o-que-deve-saber</guid>
+    </item>
+    <item>
+      <title>Não é o Crédito, Meus Senhores</title>
+      <link>https://www.maxfinance.pt/pt-pt/blog/nao-e-o-credito-meus-senhores-opiniao-do-ceo-maxfinance</link>
+      <description>03.09.2026 O principal obstáculo à compra de casa não é o custo do financiamento. É, sobretudo, o preço dos imóveis, que continua a afastar-se dos rendimentos das famílias.</description>
+      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/nao-e-o-credito-meus-senhores-opiniao-do-ceo-maxfinance</guid>
+      <pubDate>Thu, 03 Sep 2026 09:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Vai comprar casa? Há uma alteração à documentação dos imóveis que deve conhecer</title>
+      <link>https://www.maxfinance.pt/pt-pt/blog/nova-regra-na-documentacao-dos-imoveis-o-que-muda-em-2026</link>
+      <description>01.09.2026 Comprar casa implica muito mais do que encontrar o imóvel ideal ou conseguir a aprovação do crédito habitação.</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/nova-regra-na-documentacao-dos-imoveis-o-que-muda-em-2026</guid>
+      <pubDate>Tue, 01 Sep 2026 09:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Vai comprar casa? A decisão começa muito antes da primeira visita</title>
@@ -55,20 +69,6 @@
       <description>22.08.2026 Receber uma resposta negativa a um pedido de crédito habitação pode ser frustrante.</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/credito-habitacao-recusado-nao-desista-ainda</guid>
       <pubDate>Sat, 22 Aug 2026 09:00:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>A sua empresa precisa de financiamento? Um intermediário de crédito também o pode ajudar.</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/financiamento-empresarial-como-um-intermediario-ajuda</link>
-      <description>21.08.2026 Quando se fala em intermediários de crédito, a maioria das pessoas pensa imediatamente em crédito habitação.</description>
-      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/financiamento-empresarial-como-um-intermediario-ajuda</guid>
-      <pubDate>Fri, 21 Aug 2026 09:00:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Regresso às aulas: Como poupar sem sacrificar a qualidade</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/regresso-aulas-como-poupar-sem-perder-qualidade</link>
-      <description>20.08.2026 Setembro é sinónimo de recomeços. Para milhares de famílias, é também um dos meses em que as despesas disparam.</description>
-      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/regresso-aulas-como-poupar-sem-perder-qualidade</guid>
-      <pubDate>Thu, 20 Aug 2026 09:00:00 +0100</pubDate>
     </item>
   </channel>
 </rss>
