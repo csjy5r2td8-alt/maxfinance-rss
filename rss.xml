@@ -7,12 +7,19 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>MaxfinanceRSS</generator>
     <language>pt-pt</language>
-    <lastBuildDate>Sun, 06 Sep 2026 20:41:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 21:52:06 +0100</lastBuildDate>
     <item>
       <title>The MAXFINANCE Mobile</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/recebeu-uma-heranca-o-que-deve-saber</link>
+      <link>https://www.maxfinance.pt/pt-pt/blog/iuc-novas-regras-de-pagamento-em-2027-e-2028</link>
       <description>Maxfinance Serviços Check-up Financeiro Crédito Habitação Simuladores Crédito Habitação Transferência de Crédito Habitação Variação da Euribor Mais-valias de imóveis Prestação de crédito após amortização IMI Novo IMT e Imposto de Selo Novo Check-up Financeiro Salário Líquido Novo Blog Franchising</description>
+      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/iuc-novas-regras-de-pagamento-em-2027-e-2028</guid>
+    </item>
+    <item>
+      <title>Recebeu uma herança? O que deve saber antes de tomar decisões financeiras</title>
+      <link>https://www.maxfinance.pt/pt-pt/blog/recebeu-uma-heranca-o-que-deve-saber</link>
+      <description>03.09.2026 Receber uma herança pode representar uma mudança importante na situação financeira de uma pessoa ou família.</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/recebeu-uma-heranca-o-que-deve-saber</guid>
+      <pubDate>Thu, 03 Sep 2026 09:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Não é o Crédito, Meus Senhores</title>
@@ -62,13 +69,6 @@
       <description>24.08.2026 Há uma pergunta que milhares de portugueses fazem todos os anos: será melhor comprar casa agora ou esperar mais alguns meses?</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/comprar-casa-em-2026-esperar-ou-avancar-ja</guid>
       <pubDate>Mon, 24 Aug 2026 09:00:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>O banco recusou o seu crédito habitação? Antes de desistir, fale com um intermediário de crédito.</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/credito-habitacao-recusado-nao-desista-ainda</link>
-      <description>22.08.2026 Receber uma resposta negativa a um pedido de crédito habitação pode ser frustrante.</description>
-      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/credito-habitacao-recusado-nao-desista-ainda</guid>
-      <pubDate>Sat, 22 Aug 2026 09:00:00 +0100</pubDate>
     </item>
   </channel>
 </rss>
