@@ -7,12 +7,19 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>MaxfinanceRSS</generator>
     <language>pt-pt</language>
-    <lastBuildDate>Mon, 07 Sep 2026 21:52:06 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 21:24:13 +0100</lastBuildDate>
     <item>
       <title>The MAXFINANCE Mobile</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/iuc-novas-regras-de-pagamento-em-2027-e-2028</link>
+      <link>https://www.maxfinance.pt/pt-pt/blog/volta-aulas-como-preparar-despesas</link>
       <description>Maxfinance Serviços Check-up Financeiro Crédito Habitação Simuladores Crédito Habitação Transferência de Crédito Habitação Variação da Euribor Mais-valias de imóveis Prestação de crédito após amortização IMI Novo IMT e Imposto de Selo Novo Check-up Financeiro Salário Líquido Novo Blog Franchising</description>
+      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/volta-aulas-como-preparar-despesas</guid>
+    </item>
+    <item>
+      <title>IUC: as regras de pagamento vão mudar. Saiba o que acontece em 2027 e 2028</title>
+      <link>https://www.maxfinance.pt/pt-pt/blog/iuc-novas-regras-de-pagamento-em-2027-e-2028</link>
+      <description>07.09.2026 Quem tem um automóvel em Portugal está habituado a uma regra simples: pagar o Imposto Único de Circulação (IUC) no mês da matrícula do veículo. Essa regra vai mudar.</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/iuc-novas-regras-de-pagamento-em-2027-e-2028</guid>
+      <pubDate>Mon, 07 Sep 2026 09:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Recebeu uma herança? O que deve saber antes de tomar decisões financeiras</title>
@@ -62,13 +69,6 @@
       <description>25.08.2026 Comprar casa é, para a maioria das pessoas, uma das decisões financeiras mais importantes da vida.</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/preparado-para-comprar-casa-nos-proximos-meses-faca-o-teste</guid>
       <pubDate>Tue, 25 Aug 2026 09:00:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Comprar casa ainda este ano: esperar ou avançar?</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/comprar-casa-em-2026-esperar-ou-avancar-ja</link>
-      <description>24.08.2026 Há uma pergunta que milhares de portugueses fazem todos os anos: será melhor comprar casa agora ou esperar mais alguns meses?</description>
-      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/comprar-casa-em-2026-esperar-ou-avancar-ja</guid>
-      <pubDate>Mon, 24 Aug 2026 09:00:00 +0100</pubDate>
     </item>
   </channel>
 </rss>
