@@ -1,0 +1,29 @@
+{
+  "last_checked_at": null,
+  "notices": [
+    {
+      "id": "d63776eb7074a4a38c12",
+      "code": "Aviso 05-25",
+      "title": "Aviso 05-25 Incentivo Fiscal por implementación de Facturación Electrónica en periodo de voluntariedad a los Grandes Contribuyentes Nacionales",
+      "date": "10/02/2025",
+      "url": "https://www.dgii.gov.do/publicacionesOficiales/avisosInformativos/Documents/2025/05-25.pdf",
+      "recorded_at": "baseline"
+    },
+    {
+      "id": "ada82f036fd6f59cb992",
+      "code": "Aviso 14-25",
+      "title": "Aviso 14-25 Plazo de implementación de Facturación Electrónica para resto de contribuyentes: pequeños, micro, no clasificados y demás entidades estatales",
+      "date": "04/06/2025",
+      "url": "https://www.dgii.gov.do/publicacionesOficiales/avisosInformativos/Documents/2025/14-25.pdf",
+      "recorded_at": "baseline"
+    },
+    {
+      "id": "698b88cd92883a2d0c95",
+      "code": "Aviso 06-26",
+      "title": "Aviso 06-26 Extensión del plazo de implementación de Facturación Electrónica para contribuyentes pequeños, micros y no clasificados",
+      "date": "06/05/2026",
+      "url": "https://www.dgii.gov.do/publicacionesOficiales/avisosInformativos/Documents/2026/06-26.pdf",
+      "recorded_at": "baseline"
+    }
+  ]
+}
