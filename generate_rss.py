@@ -49,6 +49,120 @@ def parse_articles(html: str):
             return False
         return bool(ARTICLE_RE.match(a["href"].strip().replace(SITE, "")))
 
+    def container_de(a_tag, profundidade=6):
+        """Sobe na arvore a partir do link do artigo ate encontrar a
+        'caixinha' que tambem contem o titulo (h2/h3). Isto evita sair
+        para o resto da pagina (menus escondidos, etc) por engano."""
+        node = a_tag
+        for _ in range(profundidade):
+            node = node.parent
+            if node is None or node.name == "body":
+                return None, None
+            h = node.find(["h2", "h3"])
+            if h is not None and h.get_text(strip=True):
+                return node, h
+        return None, None
+
+    # Ancora-se nos links de artigo (o unico sinal fiavel), nunca nos titulos.
+    for a in soup.find_all("a", href=True):
+        if not is_article_link(a):
+            continue
+        url = urljoin(SITE, a["href"].strip())
+        if url in seen:
+            continue
+
+        container, heading = container_de(a)
+        if container is None:
+            continue
+        title = heading.get_text(" ", strip=True)
+        if not title:
+            continue
+        seen.add(url)
+
+        date_val = None
+        summary = ""
+        for node in container.find_all(True):
+            if node is heading or node in heading.descendants:
+                continue
+            text = node.get_text(" ", strip=True) if hasattr(node, "get_text") else ""
+            if not text or text == title:
+                continue
+            if date_val is None:
+                m = DATE_RE.search(text)
+                if m and len(text) < 25:
+                    d, mth, y = map(int, m.groups())
+                    date_val = dt.datetime(y, mth, d, 9, 0, tzinfo=LISBON)
+                    continue
+            if (not summary and len(text) > 40
+                    and node.name not in ("h1", "h2", "h3", "h4")
+                    and "ler mais" not in text.lower()):
+                summary = text
+            if date_val and summary:
+                break
+
+        articles.append(
+            {
+                "title": title,
+                "url": url,
+                "date": date_val,
+                "summary": summary or title,
+            }
+        )
+
+    return articles
+
+
+def build_feed(articles) -> bytes:
+    fg = FeedGenerator()
+    fg.title(FEED_TITLE)
+    fg.link(href=BLOG_URL, rel="alternate")
+    fg.description(FEED_DESC)
+    fg.language("pt-pt")
+    fg.lastBuildDate(dt.datetime.now(LISBON))
+    fg.generator("MaxfinanceRSS")
+
+    # feedgen escreve por ordem inversa, por isso adiciona-se do mais antigo p/ o mais novo
+    for art in reversed(articles):
+        fe = fg.add_entry()
+        fe.title(art["title"])
+        fe.link(href=art["url"])
+        fe.guid(art["url"], permalink=True)
+        fe.description(art["summary"])
+        if art["date"]:
+            fe.pubDate(art["date"])
+
+    return fg.rss_str(pretty=True)
+
+
+def main():
+    html = fetch_html(BLOG_URL)
+    articles = parse_articles(html)
+    if not articles:
+        print("ERRO: nao encontrei artigos. A estrutura do site pode ter mudado.",
+              file=sys.stderr)
+        sys.exit(1)
+    rss = build_feed(articles)
+    with open("rss.xml", "wb") as f:
+        f.write(rss)
+    print(f"OK: {len(articles)} artigos escritos em rss.xml")
+
+
+if __name__ == "__main__":
+    main()    r.raise_for_status()
+    r.encoding = r.apparent_encoding or "utf-8"
+    return r.text
+
+
+def parse_articles(html: str):
+    soup = BeautifulSoup(html, "html.parser")
+    articles = []
+    seen = set()
+
+    def is_article_link(a):
+        if not a or not a.get("href"):
+            return False
+        return bool(ARTICLE_RE.match(a["href"].strip().replace(SITE, "")))
+
     # Cada artigo da listagem tem um titulo num <h2>/<h3>. O link para o artigo
     # NAO esta dentro do titulo: esta na imagem (antes) ou no "Ler mais" (depois).
     for heading in soup.find_all(["h2", "h3"]):
