@@ -218,6 +218,7 @@ def create_issue(
 ) -> str:
     marker = issue_marker(notice["id"])
     excerpt = notice["description"][:500].strip()
+    repository_owner = repository.split("/", maxsplit=1)[0]
     body = f"""Foi detetado um novo aviso relevante na p√°gina da DGII.
 
 - **Aviso:** {notice['title']}
@@ -236,7 +237,11 @@ Verificar o documento oficial e confirmar a aplicabilidade do incentivo fiscal √
             "Accept": "application/vnd.github+json",
             "X-GitHub-Api-Version": "2022-11-28",
         },
-        json={"title": ISSUE_TITLE, "body": body},
+        json={
+            "title": ISSUE_TITLE,
+            "body": body,
+            "assignees": [repository_owner],
+        },
         timeout=30,
     )
     response.raise_for_status()
