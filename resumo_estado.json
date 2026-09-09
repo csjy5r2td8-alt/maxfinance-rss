@@ -1,11 +1,11 @@
 {
-  "data": "2026-09-08",
+  "data": "2026-09-09",
   "euribor": {
-    "1 semana": 2.154,
-    "1 mês": 2.364,
-    "3 meses": 2.679,
-    "6 meses": 2.794,
-    "12 meses": 3.108
+    "1 semana": 2.156,
+    "1 mês": 2.38,
+    "3 meses": 2.669,
+    "6 meses": 2.797,
+    "12 meses": 3.116
   },
   "blog_urls": [
     "https://www.maxfinance.pt/pt-pt/blog/bce-volta-subir-juros-o-que-muda-no-seu-credito-habitacao",
@@ -54,6 +54,7 @@
     "https://www.maxfinance.pt/pt-pt/blog/nova-regra-na-documentacao-dos-imoveis-o-que-muda-em-2026",
     "https://www.maxfinance.pt/pt-pt/blog/recebeu-uma-heranca-o-que-deve-saber",
     "https://www.maxfinance.pt/pt-pt/blog/nao-e-o-credito-meus-senhores-opiniao-do-ceo-maxfinance",
-    "https://www.maxfinance.pt/pt-pt/blog/iuc-novas-regras-de-pagamento-em-2027-e-2028"
+    "https://www.maxfinance.pt/pt-pt/blog/iuc-novas-regras-de-pagamento-em-2027-e-2028",
+    "https://www.maxfinance.pt/pt-pt/blog/volta-aulas-como-preparar-despesas"
   ]
 }
