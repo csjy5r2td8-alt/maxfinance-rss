@@ -32,8 +32,6 @@ COMPETICOES = [
     ("BL1", "Bundesliga", "https://crests.football-data.org/759.svg", "#d20515"),
     ("FL1", "Ligue 1", "https://crests.football-data.org/773.svg", "#0055a4"),
     ("CL", "Champions League", "https://crests.football-data.org/EUR.svg", "#0e1e5b"),
-    ("EC", "Europeu", "https://crests.football-data.org/EUR.svg", "#1a3e8c"),
-    ("WC", "Mundial", None, "#b8860b"),
 ]
  
 PAUSA = 6.5
@@ -287,8 +285,9 @@ def main():
       {''.join(blocos) if blocos else "<p style='color:#999;text-align:center;'>Sem informação disponível hoje.</p>"}
  
       <p style="color:#9aa0a6;font-size:11px;margin-top:8px;line-height:1.6;text-align:center;">
-        Ligas, Champions, Europeu e Mundial (plano gratuito).<br>
-        Taças, Liga Europa/Conference, Liga das Nações e Copa América não incluídas.<br>
+        6 ligas e Champions League (plano gratuito).<br>
+        Taças, Liga Europa/Conference, Liga das Nações, apuramento para o Europeu,
+        Europeu, Mundial e Copa América não incluídas.<br>
         Dados de football-data.org &middot; Resumo automático
       </p>
     </div>
@@ -308,7 +307,3 @@ def main():
  
 if __name__ == "__main__":
     main()
- 
-
-
-
