@@ -14,6 +14,7 @@ from typing import Any
 from zoneinfo import ZoneInfo
 
 import requests
+from telegram_notify import notify_issue
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
@@ -163,7 +164,9 @@ def issue_already_exists(
         )
         response.raise_for_status()
         issues = response.json()
-        if any(marker in (issue.get("body") or "") for issue in issues):
+        existing = next((issue for issue in issues if marker in (issue.get("body") or "")), None)
+        if existing is not None:
+            notify_issue(existing)
             return True
         if len(issues) < 100:
             return False
@@ -240,7 +243,9 @@ def create_issue(
         timeout=30,
     )
     response.raise_for_status()
-    return str(response.json()["html_url"])
+    issue = response.json()
+    notify_issue(issue)
+    return str(issue["html_url"])
 
 
 def parse_args() -> argparse.Namespace:

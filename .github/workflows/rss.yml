@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+env:
+  TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+  TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
 jobs:
   gerar-rss:
     runs-on: ubuntu-latest
@@ -25,6 +29,12 @@ jobs:
 
       - name: Gerar o feed
         run: python generate_rss.py
+
+      - name: Avisar feed atualizado no Telegram
+        run: |
+          if ! git diff --quiet -- rss.xml; then
+            python telegram_notify.py --rss rss.xml
+          fi
 
       - name: Fazer commit do rss.xml
         run: |

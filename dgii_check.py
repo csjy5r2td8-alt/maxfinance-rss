@@ -17,6 +17,7 @@ from typing import Any
 from urllib.parse import urljoin
 
 import requests
+from telegram_notify import notify_issue
 from bs4 import BeautifulSoup
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
@@ -203,7 +204,9 @@ def issue_already_exists(
         )
         response.raise_for_status()
         items = response.json()
-        if any(marker in (item.get("body") or "") for item in items):
+        existing = next((item for item in items if marker in (item.get("body") or "")), None)
+        if existing is not None:
+            notify_issue(existing)
             return True
         if len(items) < 100:
             return False
@@ -245,7 +248,9 @@ Verificar o documento oficial e confirmar a aplicabilidade do incentivo fiscal Ã
         timeout=30,
     )
     response.raise_for_status()
-    return str(response.json()["html_url"])
+    issue = response.json()
+    notify_issue(issue)
+    return str(issue["html_url"])
 
 
 def state_entry(notice: dict[str, Any], recorded_at: str) -> dict[str, str]:

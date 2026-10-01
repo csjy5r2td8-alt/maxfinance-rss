@@ -9,6 +9,10 @@ on:
 permissions:
   contents: write
 
+env:
+  TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+  TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
 jobs:
   euribor:
     runs-on: ubuntu-latest
@@ -42,6 +46,11 @@ jobs:
           to: ${{ secrets.MAIL_TO }}
           subject: ${{ env.ASSUNTO }}
           html_body: file://email_body.html
+
+      - name: Enviar resumo no Telegram
+        if: ${{ !cancelled() && hashFiles('email_body.html') != '' }}
+        run: python telegram_notify.py --html email_body.html --subject email_subject.txt
+
 
       - name: Guardar valores para a proxima semana
         run: |

@@ -9,6 +9,10 @@ on:
 permissions:
   contents: write
 
+env:
+  TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+  TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
 jobs:
   blog:
     runs-on: ubuntu-latest
@@ -45,6 +49,11 @@ jobs:
           to: ${{ secrets.MAIL_TO }}
           subject: ${{ env.ASSUNTO }}
           html_body: file://blog_body.html
+
+      - name: Enviar resumo no Telegram
+        if: ${{ !cancelled() && hashFiles('blog_body.html') != '' && env.STATUS == 'novos' }}
+        run: python telegram_notify.py --html blog_body.html --subject blog_subject.txt
+
 
       - name: Guardar a lista de artigos vistos
         run: |
