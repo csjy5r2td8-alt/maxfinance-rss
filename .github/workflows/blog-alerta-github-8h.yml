@@ -1,11 +1,6 @@
 name: Novos artigos Maxfinance - alerta GitHub 8h
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - blog_alerta_github.py
-      - .github/workflows/blog-alerta-github-8h.yml
   schedule:
     - cron: "15 */8 * * *"
   workflow_dispatch:
