@@ -20,7 +20,7 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
 
-BLOG_URL = "https://www.maxfinance.pt/pt-pt/blog"
+BLOG_URL = "https://www.maxfinance.pt/blog"
 SITE_URL = "https://www.maxfinance.pt"
 STATE_FILE = Path("blog_vistos_github.json")
 ARTICLE_RE = re.compile(r"^/pt-pt/blog/[a-z0-9\-]+$", re.I)
