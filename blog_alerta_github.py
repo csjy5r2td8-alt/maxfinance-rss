@@ -21,6 +21,7 @@ from urllib3.util.retry import Retry
 
 
 BLOG_URL = "https://www.maxfinance.pt/blog"
+READER_URL = "https://r.jina.ai/http://www.maxfinance.pt/blog"
 SITE_URL = "https://www.maxfinance.pt"
 STATE_FILE = Path("blog_vistos_github.json")
 ARTICLE_RE = re.compile(r"^/pt-pt/blog/[a-z0-9\-]+$", re.I)
@@ -45,12 +46,37 @@ def make_session() -> requests.Session:
     return session
 
 
-def fetch_articles(session: requests.Session) -> list[dict[str, str]]:
-    logging.info("A consultar o blog Maxfinance: %s", BLOG_URL)
-    response = session.get(BLOG_URL, timeout=45)
-    response.raise_for_status()
-    response.encoding = response.apparent_encoding or "utf-8"
-    soup = BeautifulSoup(response.text, "html.parser")
+def parse_reader_articles(markdown: str) -> list[dict[str, str]]:
+    """Extrai artigos do texto Markdown devolvido pelo leitor público."""
+    pattern = re.compile(
+        r"\]\((?P<url>https?://www\.maxfinance\.pt/pt-pt/blog/[a-z0-9\-]+)\)"
+        r"\s*\n\s*###\s+(?P<title>.+?)\s*\n\s*"
+        r"(?P<date>\d{2}\.\d{2}\.\d{4})\s*\n"
+        r"(?P<excerpt>.*?)(?=\n\s*\[!\[|\Z)",
+        re.IGNORECASE | re.DOTALL,
+    )
+    articles: list[dict[str, str]] = []
+    seen: set[str] = set()
+    for match in pattern.finditer(markdown):
+        url = match.group("url").replace("http://", "https://", 1)
+        if url in seen:
+            continue
+        excerpt = match.group("excerpt").strip().split("\n\n", 1)[0].strip()
+        seen.add(url)
+        articles.append(
+            {
+                "title": match.group("title").strip(),
+                "url": url,
+                "date": match.group("date"),
+                "excerpt": excerpt,
+            }
+        )
+    return articles
+
+
+def parse_html_articles(document: str) -> list[dict[str, str]]:
+    """Mantém a leitura direta do HTML como alternativa ao leitor público."""
+    soup = BeautifulSoup(document, "html.parser")
     articles: list[dict[str, str]] = []
     seen: set[str] = set()
 
@@ -94,10 +120,30 @@ def fetch_articles(session: requests.Session) -> list[dict[str, str]]:
             }
         )
 
-    if not articles:
-        raise RuntimeError("Nenhum artigo encontrado; a estrutura do blog pode ter mudado.")
-    logging.info("Foram encontrados %s artigos na página.", len(articles))
     return articles
+
+
+def fetch_articles(session: requests.Session) -> list[dict[str, str]]:
+    sources = (
+        ("leitor público", READER_URL, parse_reader_articles),
+        ("página direta", BLOG_URL, parse_html_articles),
+    )
+    failures: list[str] = []
+    for name, url, parser in sources:
+        logging.info("A consultar o blog Maxfinance através de %s: %s", name, url)
+        try:
+            response = session.get(url, timeout=45)
+            response.raise_for_status()
+            response.encoding = response.apparent_encoding or "utf-8"
+            articles = parser(response.text)
+            if articles:
+                logging.info("Foram encontrados %s artigos através de %s.", len(articles), name)
+                return articles
+            failures.append(f"{name}: nenhum artigo encontrado")
+        except requests.RequestException as exc:
+            failures.append(f"{name}: {exc}")
+            logging.warning("A fonte %s falhou; será tentada a alternativa.", name)
+    raise RuntimeError("Não foi possível consultar o blog: " + " | ".join(failures))
 
 
 def load_state() -> dict[str, Any] | None:
@@ -244,3 +290,4 @@ if __name__ == "__main__":
     except Exception:
         logging.exception("A monitorização do blog falhou.")
         raise SystemExit(1)
+
