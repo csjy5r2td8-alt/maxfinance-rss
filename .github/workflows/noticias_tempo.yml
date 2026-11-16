@@ -2,19 +2,23 @@ name: Noticias e tempo diario
  
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - "noticias_tempo.py"
+      - ".github/workflows/noticias_tempo.yml"
  
 permissions:
   contents: read
  
 jobs:
   noticias_tempo:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Obter o codigo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
  
       - name: Instalar Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
  
@@ -28,6 +32,7 @@ jobs:
         run: echo "ASSUNTO=$(cat noticias_tempo_subject.txt)" >> $GITHUB_ENV
  
       - name: Enviar email
+        if: github.event_name != 'push'
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: smtp.gmail.com
