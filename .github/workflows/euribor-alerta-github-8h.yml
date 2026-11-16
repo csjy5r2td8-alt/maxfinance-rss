@@ -1,5 +1,7 @@
 name: Alterações Euribor - alerta GitHub 8h
 
+# Validação final da execução e persistência do estado.
+
 on:
   schedule:
     - cron: "25 */8 * * *"
