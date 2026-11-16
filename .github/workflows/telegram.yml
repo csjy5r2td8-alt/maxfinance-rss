@@ -1,8 +1,8 @@
 name: Avisar no Telegram
 
+# Desativado: cada automação relevante já envia a sua própria notificação.
+# Manter este workflow ativo causava mensagens técnicas em todos os pushes.
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -10,7 +10,8 @@ permissions:
 
 jobs:
   avisar:
-    runs-on: ubuntu-latest
+    if: ${{ false }}
+    runs-on: ubuntu-24.04
     steps:
       - name: Enviar mensagem
         env:
