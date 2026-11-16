@@ -3,7 +3,12 @@ name: Novos artigos Maxfinance - alerta GitHub 8h
 on:
   schedule:
     - cron: "15 */8 * * *"
+      timezone: "Europe/Lisbon"
   workflow_dispatch:
+  push:
+    paths:
+      - "blog_alerta_github.py"
+      - ".github/workflows/blog-alerta-github-8h.yml"
 
 permissions:
   contents: write
@@ -19,7 +24,7 @@ env:
 
 jobs:
   verificar-artigos:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 10
     steps:
       - name: Obter o repositório
