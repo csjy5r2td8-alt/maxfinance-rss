@@ -1,5 +1,7 @@
 name: Verificar avisos da DGII
 
+# Validação final da consulta e persistência do histórico.
+
 on:
   schedule:
     # Segunda-feira às 09:00 na República Dominicana (13:00 UTC).
