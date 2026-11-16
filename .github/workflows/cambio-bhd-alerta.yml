@@ -2,8 +2,8 @@ name: Alerta de alteração no câmbio BHD
 
 on:
   schedule:
-    # Verifica de hora a hora. O GitHub Actions usa UTC.
-    - cron: "17 * * * *"
+    # Uma vez por dia às 05:00, com mudança automática da hora em Portugal.
+    - cron: "0 5 * * *"
       timezone: "Europe/Lisbon"
   workflow_dispatch:
   push:
