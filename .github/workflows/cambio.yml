@@ -6,19 +6,23 @@ name: Cambio BHD diario
 permissions:
   contents: write
 
+concurrency:
+  group: maxfinance-state-writes
+  cancel-in-progress: false
+
 env:
   TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
   TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
 
 jobs:
   cambio:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Obter o codigo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Instalar Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
@@ -58,5 +62,7 @@ jobs:
             echo "Sem alteracoes."
           else
             git commit -m "Atualizar cambio BHD ($(date -u +%Y-%m-%d))"
-            git push
+            git pull --rebase origin main
+
+            git push origin HEAD:main
           fi
