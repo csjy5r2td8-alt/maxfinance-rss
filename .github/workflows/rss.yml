@@ -14,6 +14,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: maxfinance-state-writes
+  cancel-in-progress: false
+
 env:
   TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
   TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -52,5 +56,7 @@ jobs:
             echo "Sem alteracoes no feed."
           else
             git commit -m "Atualizar RSS ($(date -u +%Y-%m-%d))"
-            git push
+            git pull --rebase origin main
+
+            git push origin HEAD:main
           fi
