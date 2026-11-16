@@ -3,7 +3,12 @@ name: Alterações Euribor - alerta GitHub 8h
 on:
   schedule:
     - cron: "25 */8 * * *"
+      timezone: "Europe/Lisbon"
   workflow_dispatch:
+  push:
+    paths:
+      - "euribor_alerta_github.py"
+      - ".github/workflows/euribor-alerta-github-8h.yml"
 
 permissions:
   contents: write
@@ -19,7 +24,7 @@ env:
 
 jobs:
   verificar-euribor:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 10
     steps:
       - name: Obter o repositório
