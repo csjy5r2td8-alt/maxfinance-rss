@@ -4,7 +4,12 @@ on:
   schedule:
     # Verifica de hora a hora. O GitHub Actions usa UTC.
     - cron: "17 * * * *"
+      timezone: "Europe/Lisbon"
   workflow_dispatch:
+  push:
+    paths:
+      - "cambio_bhd_alerta.py"
+      - ".github/workflows/cambio-bhd-alerta.yml"
 
 permissions:
   contents: write
@@ -20,7 +25,7 @@ env:
 
 jobs:
   verificar-cambio:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 10
 
     steps:
