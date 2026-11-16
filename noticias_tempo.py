@@ -11,6 +11,8 @@ import datetime as dt
 import xml.etree.ElementTree as ET
 
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 CORPO = "noticias_tempo_body.html"
 ASSUNTO = "noticias_tempo_subject.txt"
@@ -90,17 +92,83 @@ def get_noticias(url, limite=N_NOTICIAS):
 
 
 # ---------- TEMPO ----------
-def get_tempo(lat, lon):
-    url = (
-        "https://api.open-meteo.com/v1/forecast"
-        f"?latitude={lat}&longitude={lon}"
-        "&daily=weathercode,temperature_2m_max,temperature_2m_min,precipitation_probability_max"
-        "&timezone=auto&forecast_days=8"
+def weather_session():
+    retry = Retry(
+        total=3,
+        connect=3,
+        read=3,
+        backoff_factor=2,
+        status_forcelist=(429, 500, 502, 503, 504),
+        allowed_methods=frozenset({"GET"}),
     )
+    session = requests.Session()
+    session.headers.update(UA)
+    session.mount("https://", HTTPAdapter(max_retries=retry))
+    return session
+
+
+def wttr_code(description):
+    """Converte a descrição inglesa do wttr.in num código WMO aproximado."""
+    text = (description or "").lower()
+    if "thunder" in text:
+        return 95
+    if "snow" in text or "sleet" in text:
+        return 71
+    if "rain" in text or "drizzle" in text or "shower" in text:
+        return 61
+    if "fog" in text or "mist" in text:
+        return 45
+    if "cloud" in text or "overcast" in text:
+        return 3
+    return 0
+
+
+def get_tempo_wttr(session, lat, lon):
+    """Alternativa de três dias quando a Open-Meteo estiver indisponível."""
+    url = f"https://wttr.in/{lat},{lon}?format=j1"
+    response = session.get(url, timeout=(10, 45))
+    response.raise_for_status()
+    forecasts = []
+    for day in response.json().get("weather", [])[:8]:
+        hourly = day.get("hourly") or []
+        middle = hourly[len(hourly) // 2] if hourly else {}
+        descriptions = middle.get("weatherDesc") or []
+        description = descriptions[0].get("value", "") if descriptions else ""
+        chances = []
+        for hour in hourly:
+            try:
+                chances.append(int(hour.get("chanceofrain") or 0))
+            except (TypeError, ValueError):
+                pass
+        forecasts.append({
+            "data": day["date"],
+            "codigo": wttr_code(description),
+            "tmax": round(float(day["maxtempC"])),
+            "tmin": round(float(day["mintempC"])),
+            "chuva": max(chances, default=0),
+        })
+    if not forecasts:
+        raise ValueError("wttr.in não devolveu previsões")
+    return forecasts
+
+
+def get_tempo(lat, lon):
+    params = {
+        "latitude": lat,
+        "longitude": lon,
+        "daily": "weathercode,temperature_2m_max,temperature_2m_min,precipitation_probability_max",
+        "timezone": "auto",
+        "forecast_days": 8,
+    }
+    session = weather_session()
     try:
-        r = requests.get(url, headers=UA, timeout=30)
-        r.raise_for_status()
-        data = r.json()["daily"]
+        response = session.get(
+            "https://api.open-meteo.com/v1/forecast",
+            params=params,
+            timeout=(10, 60),
+        )
+        response.raise_for_status()
+        data = response.json()["daily"]
         dias = []
         for i in range(len(data["time"])):
             dias.append({
@@ -110,10 +178,26 @@ def get_tempo(lat, lon):
                 "tmin": round(data["temperature_2m_min"][i]),
                 "chuva": data["precipitation_probability_max"][i],
             })
-        return dias
-    except Exception as e:
-        print(f"Aviso: falha a ler tempo ({lat},{lon}): {e}", file=sys.stderr)
-        return []
+        if dias:
+            print(f"Tempo Open-Meteo: {len(dias)} dias para {lat},{lon}.")
+            return dias
+        raise ValueError("Open-Meteo não devolveu previsões")
+    except Exception as primary_error:
+        print(
+            f"Aviso: Open-Meteo indisponível para {lat},{lon}; a tentar fonte alternativa: "
+            f"{primary_error}",
+            file=sys.stderr,
+        )
+        try:
+            dias = get_tempo_wttr(session, lat, lon)
+            print(f"Tempo wttr.in: {len(dias)} dias para {lat},{lon}.")
+            return dias
+        except Exception as fallback_error:
+            print(
+                f"Aviso: falha a ler tempo ({lat},{lon}) nas duas fontes: {fallback_error}",
+                file=sys.stderr,
+            )
+            return []
 
 
 # ---------- FORMATACAO ----------
