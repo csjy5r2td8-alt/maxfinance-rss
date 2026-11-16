@@ -2,73 +2,74 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>Blog Maxfinance</title>
-    <link>https://www.maxfinance.pt/pt-pt/blog</link>
-    <description>Conteudos sobre credito e financas pessoais do blog da Maxfinance.</description>
+    <link>https://www.maxfinance.pt/blog</link>
+    <description>Conteúdos sobre crédito e finanças pessoais do blog da Maxfinance.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>MaxfinanceRSS</generator>
-    <language>pt-pt</language>
-    <lastBuildDate>Tue, 08 Sep 2026 21:24:13 +0100</lastBuildDate>
+    <language>pt-PT</language>
+    <lastBuildDate>Mon, 16 Nov 2026 13:13:32 +0000</lastBuildDate>
     <item>
-      <title>The MAXFINANCE Mobile</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/volta-aulas-como-preparar-despesas</link>
-      <description>Maxfinance Serviços Check-up Financeiro Crédito Habitação Simuladores Crédito Habitação Transferência de Crédito Habitação Variação da Euribor Mais-valias de imóveis Prestação de crédito após amortização IMI Novo IMT e Imposto de Selo Novo Check-up Financeiro Salário Líquido Novo Blog Franchising</description>
-      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/volta-aulas-como-preparar-despesas</guid>
+      <title>Quer pagar o crédito mais cedo? Eis o que deve verificar</title>
+      <link>https://www.maxfinance.pt/pt-pt/blog/reembolso-antecipado-de-credito-o-que-deve-verificar</link>
+      <description>Recebeu um prémio, uma herança ou conseguiu juntar algum dinheiro. Tem um crédito pessoal em curso e pondera utilizar parte dessa quantia para o liquidar antes do prazo.</description>
+      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/reembolso-antecipado-de-credito-o-que-deve-verificar</guid>
+      <pubDate>Mon, 16 Nov 2026 09:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>IUC: as regras de pagamento vão mudar. Saiba o que acontece em 2027 e 2028</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/iuc-novas-regras-de-pagamento-em-2027-e-2028</link>
-      <description>07.09.2026 Quem tem um automóvel em Portugal está habituado a uma regra simples: pagar o Imposto Único de Circulação (IUC) no mês da matrícula do veículo. Essa regra vai mudar.</description>
-      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/iuc-novas-regras-de-pagamento-em-2027-e-2028</guid>
-      <pubDate>Mon, 07 Sep 2026 09:00:00 +0100</pubDate>
+      <title>Pagar o mínimo do cartão de crédito pode sair caro</title>
+      <link>https://www.maxfinance.pt/pt-pt/blog/pagar-o-minimo-do-cartao-de-credito-quanto-custa</link>
+      <description>Chega o extrato do cartão de crédito. O saldo é superior ao esperado, mas há uma solução aparentemente simples: pagar apenas o valor mínimo indicado e deixar o restante para o mês seguinte.</description>
+      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/pagar-o-minimo-do-cartao-de-credito-quanto-custa</guid>
+      <pubDate>Fri, 13 Nov 2026 09:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Recebeu uma herança? O que deve saber antes de tomar decisões financeiras</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/recebeu-uma-heranca-o-que-deve-saber</link>
-      <description>03.09.2026 Receber uma herança pode representar uma mudança importante na situação financeira de uma pessoa ou família.</description>
-      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/recebeu-uma-heranca-o-que-deve-saber</guid>
-      <pubDate>Thu, 03 Sep 2026 09:00:00 +0100</pubDate>
+      <title>Recebe rendimentos variáveis? Como organizar o orçamento quando não ganha o mesmo todos os meses</title>
+      <link>https://www.maxfinance.pt/pt-pt/blog/recebe-rendimentos-variaveis-como-organizar-o-orcamento</link>
+      <description>Ter um rendimento que varia de mês para mês é uma realidade para muitos portugueses.</description>
+      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/recebe-rendimentos-variaveis-como-organizar-o-orcamento</guid>
+      <pubDate>Thu, 12 Nov 2026 09:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Não é o Crédito, Meus Senhores</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/nao-e-o-credito-meus-senhores-opiniao-do-ceo-maxfinance</link>
-      <description>03.09.2026 O principal obstáculo à compra de casa não é o custo do financiamento. É, sobretudo, o preço dos imóveis, que continua a afastar-se dos rendimentos das famílias.</description>
-      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/nao-e-o-credito-meus-senhores-opiniao-do-ceo-maxfinance</guid>
-      <pubDate>Thu, 03 Sep 2026 09:00:00 +0100</pubDate>
+      <title>Obras em casa: quando recorrer ao crédito pode fazer sentido</title>
+      <link>https://www.maxfinance.pt/pt-pt/blog/credito-para-obras-em-casa-quando-vale-pena</link>
+      <description>Uma infiltração que não pode esperar, uma cozinha que precisa de ser renovada ou janelas antigas que deixam escapar calor.</description>
+      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/credito-para-obras-em-casa-quando-vale-pena</guid>
+      <pubDate>Wed, 11 Nov 2026 09:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Vai comprar casa? Há uma alteração à documentação dos imóveis que deve conhecer</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/nova-regra-na-documentacao-dos-imoveis-o-que-muda-em-2026</link>
-      <description>01.09.2026 Comprar casa implica muito mais do que encontrar o imóvel ideal ou conseguir a aprovação do crédito habitação.</description>
-      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/nova-regra-na-documentacao-dos-imoveis-o-que-muda-em-2026</guid>
-      <pubDate>Tue, 01 Sep 2026 09:00:00 +0100</pubDate>
+      <title>Desmistificar jargões financeiros: MTIC, DSTI e Euribor</title>
+      <link>https://www.maxfinance.pt/pt-pt/blog/desmistificar-jargoes-financeiros-mtic-dsti-e-euribor</link>
+      <description>Quando o assunto é finanças, é comum surgirem conceitos que parecem complexos ou até intimidadores. No entanto, compreender estes conceitos é fundamental para tomar decisões informadas e eficazes.</description>
+      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/desmistificar-jargoes-financeiros-mtic-dsti-e-euribor</guid>
+      <pubDate>Tue, 10 Nov 2026 09:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Vai comprar casa? A decisão começa muito antes da primeira visita</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/comprar-casa-decisao-comeca-antes-da-primeira-visita</link>
-      <description>28.08.2026 Quando alguém decide comprar uma casa, a primeira ação é quase sempre a mesma: começar a procurar imóveis nos portais imobiliários.</description>
-      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/comprar-casa-decisao-comeca-antes-da-primeira-visita</guid>
-      <pubDate>Fri, 28 Aug 2026 09:00:00 +0100</pubDate>
+      <title>Crédito aprovado. Mas será que lhe convém?</title>
+      <link>https://www.maxfinance.pt/pt-pt/blog/credito-aprovado-sera-que-lhe-convem-taeg-e-mtic</link>
+      <description>Precisava de trocar de carro, comprar um eletrodoméstico ou financiar uma despesa inesperada. Fez uma simulação, recebeu uma proposta e o crédito foi aprovado. Problema resolvido?</description>
+      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/credito-aprovado-sera-que-lhe-convem-taeg-e-mtic</guid>
+      <pubDate>Mon, 09 Nov 2026 09:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Regresso das férias: como recuperar a saúde financeira sem entrar em dívida</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/regresso-das-ferias-como-recuperar-financas-sem-dividas</link>
-      <description>27.08.2026 As férias são momentos para descansar, criar memórias e recarregar energias. No entanto, é frequente que setembro traga consigo uma sensação de que o orçamento ficou mais apertado.</description>
-      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/regresso-das-ferias-como-recuperar-financas-sem-dividas</guid>
-      <pubDate>Thu, 27 Aug 2026 09:00:00 +0100</pubDate>
+      <title>Vai receber mais em 2027? Saiba como transformar um aumento salarial numa oportunidade de poupança</title>
+      <link>https://www.maxfinance.pt/pt-pt/blog/saiba-transformar-um-aumento-salarial-numa-oportunidade</link>
+      <description>A chegada de um novo ano traz, muitas vezes, mudanças no orçamento familiar. Para alguns portugueses, 2027 poderá representar um aumento salarial ou uma melhoria do rendimento disponível.</description>
+      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/saiba-transformar-um-aumento-salarial-numa-oportunidade</guid>
+      <pubDate>Thu, 05 Nov 2026 09:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>O arrendamento pode voltar a mudar. O que significa isso para quem tem ou procura casa?</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/arrendamento-vai-mudar-o-que-significa-para-si</link>
-      <description>26.08.2026 Nos últimos dias muito se tem falado sobre uma proposta de alteração às regras do arrendamento urbano.</description>
-      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/arrendamento-vai-mudar-o-que-significa-para-si</guid>
-      <pubDate>Wed, 26 Aug 2026 09:00:00 +0100</pubDate>
+      <title>Comprar uma casa antiga: que despesas deve considerar para além do preço de aquisição?</title>
+      <link>https://www.maxfinance.pt/pt-pt/blog/comprar-uma-casa-antiga-que-despesas-deve-considerar</link>
+      <description>Comprar uma casa antiga pode ser uma excelente oportunidade para quem procura uma localização privilegiada, áreas mais generosas ou um imóvel com personalidade.</description>
+      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/comprar-uma-casa-antiga-que-despesas-deve-considerar</guid>
+      <pubDate>Tue, 03 Nov 2026 09:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Está preparado para comprar casa nos próximos 12 meses? Faça este teste</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/preparado-para-comprar-casa-nos-proximos-meses-faca-o-teste</link>
-      <description>25.08.2026 Comprar casa é, para a maioria das pessoas, uma das decisões financeiras mais importantes da vida.</description>
-      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/preparado-para-comprar-casa-nos-proximos-meses-faca-o-teste</guid>
-      <pubDate>Tue, 25 Aug 2026 09:00:00 +0100</pubDate>
+      <title>Dia Mundial da Poupança: não precisa de ganhar mais para começar a poupar</title>
+      <link>https://www.maxfinance.pt/pt-pt/blog/dia-mundial-da-poupanca-como-comecar-poupar-ja</link>
+      <description>Chegar ao fim do mês com dinheiro de sobra parece cada vez mais difícil.</description>
+      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/dia-mundial-da-poupanca-como-comecar-poupar-ja</guid>
+      <pubDate>Sat, 31 Oct 2026 09:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
