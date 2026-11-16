@@ -3,7 +3,13 @@ name: Gerar RSS do blog Maxfinance
 on:
   schedule:
     - cron: "0 18 * * *"
+      timezone: "Europe/Lisbon"
   workflow_dispatch:
+  push:
+    paths:
+      - "generate_rss.py"
+      - "blog_alerta_github.py"
+      - ".github/workflows/rss.yml"
 
 permissions:
   contents: write
@@ -14,13 +20,13 @@ env:
 
 jobs:
   gerar-rss:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Obter o codigo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Instalar Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
@@ -31,6 +37,7 @@ jobs:
         run: python generate_rss.py
 
       - name: Avisar feed atualizado no Telegram
+        if: github.event_name != 'push'
         run: |
           if ! git diff --quiet -- rss.xml; then
             python telegram_notify.py --rss rss.xml
