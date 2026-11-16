@@ -16,7 +16,7 @@ permissions:
   issues: write
 
 concurrency:
-  group: alerta-cambio-bhd
+  group: maxfinance-state-writes
   cancel-in-progress: false
 
 env:
@@ -58,4 +58,6 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add cambio_bhd_alerta_estado.json
           git commit -m "Atualizar referência do câmbio BHD ($(date -u +%F))"
-          git push
+          git pull --rebase origin main
+
+          git push origin HEAD:main
