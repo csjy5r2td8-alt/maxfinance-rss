@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>MaxfinanceRSS</generator>
     <language>pt-PT</language>
-    <lastBuildDate>Mon, 16 Nov 2026 13:13:32 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 01:36:56 +0000</lastBuildDate>
+    <item>
+      <title>O preço das casas é apenas um dos desafios</title>
+      <link>https://www.maxfinance.pt/pt-pt/blog/preco-das-casas-em-portugal-porque-continua-subir</link>
+      <description>Comprar casa tornou-se um dos maiores desafios financeiros para muitas famílias portuguesas.</description>
+      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/preco-das-casas-em-portugal-porque-continua-subir</guid>
+      <pubDate>Mon, 16 Nov 2026 09:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Quer pagar o crédito mais cedo? Eis o que deve verificar</title>
       <link>https://www.maxfinance.pt/pt-pt/blog/reembolso-antecipado-de-credito-o-que-deve-verificar</link>
@@ -63,13 +70,6 @@
       <description>Comprar uma casa antiga pode ser uma excelente oportunidade para quem procura uma localização privilegiada, áreas mais generosas ou um imóvel com personalidade.</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/comprar-uma-casa-antiga-que-despesas-deve-considerar</guid>
       <pubDate>Tue, 03 Nov 2026 09:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Dia Mundial da Poupança: não precisa de ganhar mais para começar a poupar</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/dia-mundial-da-poupanca-como-comecar-poupar-ja</link>
-      <description>Chegar ao fim do mês com dinheiro de sobra parece cada vez mais difícil.</description>
-      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/dia-mundial-da-poupanca-como-comecar-poupar-ja</guid>
-      <pubDate>Sat, 31 Oct 2026 09:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
