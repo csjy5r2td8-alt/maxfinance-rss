@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>MaxfinanceRSS</generator>
     <language>pt-PT</language>
-    <lastBuildDate>Tue, 17 Nov 2026 01:36:56 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 00:33:46 +0000</lastBuildDate>
+    <item>
+      <title>Ter mais do que um crédito pessoal: É possível?</title>
+      <link>https://www.maxfinance.pt/pt-pt/blog/ter-mais-do-que-um-credito-pessoal-e-possivel</link>
+      <description>Recorrer a um crédito pessoal pode ser uma solução para fazer face a despesas inesperadas, financiar um projeto ou concretizar um objetivo.</description>
+      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/ter-mais-do-que-um-credito-pessoal-e-possivel</guid>
+      <pubDate>Tue, 17 Nov 2026 09:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>O preço das casas é apenas um dos desafios</title>
       <link>https://www.maxfinance.pt/pt-pt/blog/preco-das-casas-em-portugal-porque-continua-subir</link>
@@ -63,13 +70,6 @@
       <description>A chegada de um novo ano traz, muitas vezes, mudanças no orçamento familiar. Para alguns portugueses, 2027 poderá representar um aumento salarial ou uma melhoria do rendimento disponível.</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/saiba-transformar-um-aumento-salarial-numa-oportunidade</guid>
       <pubDate>Thu, 05 Nov 2026 09:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Comprar uma casa antiga: que despesas deve considerar para além do preço de aquisição?</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/comprar-uma-casa-antiga-que-despesas-deve-considerar</link>
-      <description>Comprar uma casa antiga pode ser uma excelente oportunidade para quem procura uma localização privilegiada, áreas mais generosas ou um imóvel com personalidade.</description>
-      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/comprar-uma-casa-antiga-que-despesas-deve-considerar</guid>
-      <pubDate>Tue, 03 Nov 2026 09:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
