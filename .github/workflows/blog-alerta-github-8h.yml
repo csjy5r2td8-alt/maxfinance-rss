@@ -1,14 +1,8 @@
 name: Novos artigos Maxfinance - alerta GitHub 8h
 
+# Pausado a pedido do utilizador em 2026-11-19.
 on:
-  schedule:
-    - cron: "15 */8 * * *"
-      timezone: "Europe/Lisbon"
   workflow_dispatch:
-  push:
-    paths:
-      - "blog_alerta_github.py"
-      - ".github/workflows/blog-alerta-github-8h.yml"
 
 permissions:
   contents: write
@@ -24,6 +18,7 @@ env:
 
 jobs:
   verificar-artigos:
+    if: ${{ false }}
     runs-on: ubuntu-24.04
     timeout-minutes: 10
     steps:
