@@ -41,7 +41,8 @@ jobs:
         run: python generate_rss.py
 
       - name: Avisar feed atualizado no Telegram
-        if: github.event_name != 'push'
+        # Pausado: o feed continua a ser gerado sem notificação.
+        if: ${{ false }}
         run: |
           if ! git diff --quiet -- rss.xml; then
             python telegram_notify.py --rss rss.xml
