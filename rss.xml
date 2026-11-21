@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>MaxfinanceRSS</generator>
     <language>pt-PT</language>
-    <lastBuildDate>Fri, 20 Nov 2026 23:42:27 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 22:48:06 +0000</lastBuildDate>
+    <item>
+      <title>Black Friday: está mesmo a poupar ou só a gastar menos? (Copy)</title>
+      <link>https://www.maxfinance.pt/pt-pt/blog/black-friday-esta-poupar-ou-so-gastar-menos</link>
+      <description>Um produto custa 200 euros e aparece com 40% de desconto. Parece um bom negócio.</description>
+      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/black-friday-esta-poupar-ou-so-gastar-menos</guid>
+      <pubDate>Sat, 21 Nov 2026 09:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Há vida depois de comprar casa</title>
       <link>https://www.maxfinance.pt/pt-pt/blog/ha-vida-depois-de-comprar-casa-rever-o-credito-habitacao</link>
@@ -63,13 +70,6 @@
       <description>Chega o extrato do cartão de crédito. O saldo é superior ao esperado, mas há uma solução aparentemente simples: pagar apenas o valor mínimo indicado e deixar o restante para o mês seguinte.</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/pagar-o-minimo-do-cartao-de-credito-quanto-custa</guid>
       <pubDate>Fri, 13 Nov 2026 09:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Recebe rendimentos variáveis? Como organizar o orçamento quando não ganha o mesmo todos os meses</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/recebe-rendimentos-variaveis-como-organizar-o-orcamento</link>
-      <description>Ter um rendimento que varia de mês para mês é uma realidade para muitos portugueses.</description>
-      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/recebe-rendimentos-variaveis-como-organizar-o-orcamento</guid>
-      <pubDate>Thu, 12 Nov 2026 09:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
