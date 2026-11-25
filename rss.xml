@@ -7,9 +7,23 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>MaxfinanceRSS</generator>
     <language>pt-PT</language>
-    <lastBuildDate>Sat, 21 Nov 2026 22:48:06 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 01:55:44 +0000</lastBuildDate>
     <item>
-      <title>Black Friday: está mesmo a poupar ou só a gastar menos? (Copy)</title>
+      <title>Inflação pessoal: porque é que o seu dinheiro parece chegar para cada vez menos?</title>
+      <link>https://www.maxfinance.pt/pt-pt/blog/inflacao-pessoal-porque-e-que-o-dinheiro-rende-menos</link>
+      <description>O salário mantém-se, as despesas aumentam e, no final do mês, sobra cada vez menos dinheiro.</description>
+      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/inflacao-pessoal-porque-e-que-o-dinheiro-rende-menos</guid>
+      <pubDate>Tue, 24 Nov 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>O dinheiro parado na conta está a perder valor?</title>
+      <link>https://www.maxfinance.pt/pt-pt/blog/dinheiro-parado-na-conta-perde-valor-inflacao-e-poupanca</link>
+      <description>Ter dinheiro disponível dá segurança. Permite pagar uma despesa inesperada, lidar com uma avaria no carro ou enfrentar um período com menos rendimentos sem recorrer imediatamente ao crédito.</description>
+      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/dinheiro-parado-na-conta-perde-valor-inflacao-e-poupanca</guid>
+      <pubDate>Mon, 23 Nov 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Black Friday: está mesmo a poupar ou só a gastar menos?</title>
       <link>https://www.maxfinance.pt/pt-pt/blog/black-friday-esta-poupar-ou-so-gastar-menos</link>
       <description>Um produto custa 200 euros e aparece com 40% de desconto. Parece um bom negócio.</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/black-friday-esta-poupar-ou-so-gastar-menos</guid>
@@ -56,20 +70,6 @@
       <description>Comprar casa tornou-se um dos maiores desafios financeiros para muitas famílias portuguesas.</description>
       <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/preco-das-casas-em-portugal-porque-continua-subir</guid>
       <pubDate>Mon, 16 Nov 2026 09:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Quer pagar o crédito mais cedo? Eis o que deve verificar</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/reembolso-antecipado-de-credito-o-que-deve-verificar</link>
-      <description>Recebeu um prémio, uma herança ou conseguiu juntar algum dinheiro. Tem um crédito pessoal em curso e pondera utilizar parte dessa quantia para o liquidar antes do prazo.</description>
-      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/reembolso-antecipado-de-credito-o-que-deve-verificar</guid>
-      <pubDate>Mon, 16 Nov 2026 09:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Pagar o mínimo do cartão de crédito pode sair caro</title>
-      <link>https://www.maxfinance.pt/pt-pt/blog/pagar-o-minimo-do-cartao-de-credito-quanto-custa</link>
-      <description>Chega o extrato do cartão de crédito. O saldo é superior ao esperado, mas há uma solução aparentemente simples: pagar apenas o valor mínimo indicado e deixar o restante para o mês seguinte.</description>
-      <guid isPermaLink="true">https://www.maxfinance.pt/pt-pt/blog/pagar-o-minimo-do-cartao-de-credito-quanto-custa</guid>
-      <pubDate>Fri, 13 Nov 2026 09:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
